@@ -1,0 +1,54 @@
+@import "./variables";
+@import "./header";
+@import "./main";
+
+div {
+    margin : 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin : 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%
+}
+
+html {
+    font-size      : 14px;
+    scroll-behavior: smooth
+}
+
+i {
+    display  : inline-block;
+    font-size: 1em
+}
+
+a {
+    text-decoration: none;
+    color          : inherit;
+    list-style     : none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin     : 0;
+    font-family: Mulish, sans-serif, serif;
+    font-style : normal;
+
+}
+
+
+button {
+    @extend recButton
+}

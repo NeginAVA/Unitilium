@@ -1,0 +1,338 @@
+recButton, header button.recButton, button {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+recButton i, header button.recButton i, button i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+}
+
+recButton, header button.recButton, button {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+recButton i, header button.recButton i, button i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+}
+
+header {
+  padding: 30px 120px;
+  background-color: #52c3ff;
+  color: #ffffff;
+}
+
+header button.recButton {
+  color: #52c3ff;
+  background-color: #ffffff;
+}
+
+header .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #52c3ff;
+  margin-bottom: 40px;
+}
+
+header .navbar .navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+header .navbar .navbar-brand .logo {
+  width: 80px;
+  height: 32px;
+  overflow: visible;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+header .navbar .navbar-brand .brand-name {
+  margin: 0 14px 0px 14px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.2;
+  list-style: none;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+header .navbar .right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+header .navbar .right-nav .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 16px;
+  color: #ffffff;
+}
+
+header .navbar .right-nav .navbar-nav .nav-item {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-right: 24px;
+}
+
+header .navbar .right-nav .navbar-nav .nav-item .nav-link {
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  color: #ffffff;
+}
+
+header .navbar .right-nav .navbar-nav .nav-item .nav-link:hover {
+  font-size: 19px;
+}
+
+header .navbar .right-nav .navbar-nav .nav-item .nav-link.active {
+  font-size: 19px;
+  border-bottom: 1px solid;
+}
+
+header .main-header .head-title h1.head-title-text {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-bottom: 20px;
+}
+
+header .main-header .head-title .head-title-underline {
+  width: 480px;
+  height: 34px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+header .main-header .head-subtitle {
+  margin: 20px 0;
+}
+
+header .main-header .head-subtitle p.head-subtitle-text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+header .main-header .head-start-btn {
+  margin: 20px 0;
+}
+
+header .main-header .main-header-imageBox {
+  height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+}
+
+recButton, header button.recButton, button {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+recButton i, header button.recButton i, button i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+}
+
+main .present-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #282828;
+  color: #ffffff;
+  padding: 40px 120px;
+}
+
+main .present-banner .banner-text {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+main .present-banner .banner-logo {
+  width: 200px;
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+i {
+  display: inline-block;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: Mulish, sans-serif, serif;
+  font-style: normal;
+}
+/*# sourceMappingURL=styles.css.map */

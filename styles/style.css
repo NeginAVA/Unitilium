@@ -1,0 +1,442 @@
+@font-face {
+    font-family: 'icon';
+    src:  url('../fonts/icon.eot?vzdw2g');
+    src:  url('../fonts/icon.eot?vzdw2g#iefix') format('embedded-opentype'),
+      url('../fonts/icon.ttf?vzdw2g') format('truetype'),
+      url('../fonts/icon.woff?vzdw2g') format('woff'),
+      url('../fonts/icon.svg?vzdw2g#icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Icon-youtube:before {
+    content: "\e900";
+}
+.icon-Icon-linkedin:before {
+    content: "\e901";
+}
+.icon-Icon-instagram:before {
+    content: "\e902";
+}
+a, a:active, a:focus, a:hover, a:visited {
+    text-decoration: none
+}
+
+a {
+    color: inherit
+}
+
+div {
+    outline: none
+}
+
+img {
+    max-width: 100%
+}
+
+html {
+    font-size: 14px;
+    scroll-behavior: smooth
+}
+
+i {
+    display: inline-block;
+    font-size: 1em
+}
+
+i:before {
+    line-height: 1;
+    vertical-align: middle
+}
+
+h1, h2, h3, h4, h5, h6, label, p, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer
+}
+
+button:disabled, input:disabled {
+    opacity: .4;
+    cursor: default
+}
+
+button, input, textarea {
+    font-family: inherit;
+    outline: none
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: IRANSansFa, tahoma, sans-serif, serif;
+    font-weight: 400;
+    direction: rtl;
+    text-align: right;
+    scroll-behavior: smooth;
+    color: #585858;
+    font-size: 14px;
+    margin: 0
+}
+
+.btn.green {
+    background-color: #17AA4F;
+    color: #fff;
+    border-radius: 4px;
+    height: 33px;
+    border: 1px solid #17AA4F;
+}
+
+.btn.green:hover {
+    background-color: #13C356;
+    border: 1px solid #13C356;
+}
+
+.navbar {
+    background-color: #EAEAEA;
+    padding: 8px 63px;
+}
+
+.navbar .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .right .logo {
+    height: 40px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+.navbar .right .logo img {
+    height: 100%;
+}
+
+.navbar .right .menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .right .menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.cool-move.green::after {
+    background-color: #17AA4F;
+}
+
+.cool-move.blue::after {
+    background-color: #2DA5D9;
+}
+
+.cool-move::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s;
+}
+
+.cool-move:hover::after {
+    width: 100%;
+    transition: width 0.3s;
+}
+
+.navbar a {
+    color: #585858;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: color 0.43s ease-in-out;
+}
+
+.navbar .left .login a {
+    color: #17AA4F;
+}
+
+.header {
+    margin-top: 30px;
+    line-height: 1.4;
+}
+.header .image{
+    text-align: center;
+}
+
+.info .infoDetail {
+    background-color: #EAEAEA;
+}
+
+.info .infoDetail .tabnavigation nav {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.info .infoDetail .tabnavigation nav .tabs {
+    background-color: #fff;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.tabnavigation nav .tabs li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.tabnavigation nav .tabs li a:hover {
+    color: #2DA5D9;
+}
+
+.info .infoDetail .tabContent {
+    padding: 0 12px;
+    position: relative;
+    text-align: center;
+}
+
+.info .infoDetail .tabContent .Backimage {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.info .infoDetail .tabContent .imageBox {
+    height: 177px;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.info .infoDetail .tabContent .imageBox.one:before {
+    font-family: IRANSans;
+    content: "1";
+    background-size: contain;
+    font-size: 84px;
+    font-weight: bold;
+    top: -50px;
+    right: -10px;
+    position: absolute;
+    color: rgba(88, 88, 88, 13%)
+}
+
+.info .infoDetail .tabContent .imageBox.two:before {
+    font-family: IRANSans;
+    content: "2";
+    background-size: contain;
+    font-size: 84px;
+    font-weight: bold;
+    top: -50px;
+    right: -10px;
+    position: absolute;
+    color: rgba(88, 88, 88, 13%)
+}
+
+.info .infoDetail .tabContent .imageBox.three:before {
+    font-family: IRANSans;
+    content: "3";
+    background-size: contain;
+    font-size: 84px;
+    font-weight: bold;
+    top: -50px;
+    right: -10px;
+    position: absolute;
+    color: rgba(88, 88, 88, 13%)
+}
+
+.info .infoDetail .tabContent .imageBox.four:before {
+    font-family: IRANSans;
+    content: "4";
+    background-size: contain;
+    font-size: 84px;
+    font-weight: bold;
+    top: -50px;
+    right: -10px;
+    position: absolute;
+    color: rgba(88, 88, 88, 13%)
+}
+.exhibition .tabContent {
+    padding-top: 18.82%;
+    width: 100%;
+    position: relative;
+}
+
+.exhibition .tabContent .imageBox {
+    height: 177px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.exhibition .tabContent .imageBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.exhibition .tabContent .imageBox a {
+    display: block;
+    width: 100%;
+}
+
+footer .attendance {
+    border-top: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 30px;
+}
+
+footer .attendance .title {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+footer .attendance .inputBox {
+    text-align: center;
+}
+
+footer .attendance .inputBox input {
+    width: 216px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #9F9F9F;
+    direction: ltr;
+    padding-left: 8px;
+}
+
+footer .attendance .inputBox button {
+    background-color: #30A4E2;
+    border: 1px solid #30A4E2;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: #fff;
+}
+
+footer .attendance .inputBox button:hover {
+    background-color: #57C0ED;
+    border: 1px solid #57C0ED;
+}
+
+footer .attendance .inputBox button img {
+    margin-left: 4px;
+}
+
+footer .circles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 30px;
+}
+
+footer .circles .circle {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #EAEAEA;
+    margin: 0 18px;
+}
+
+footer .socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 30px;
+}
+
+footer .socials .career {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #9F9F9F;
+}
+
+footer .socials .career .image {
+    margin-bottom: 6px;
+    width: 83px;
+    height: 23px;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+}
+
+footer .socials .footerMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+    color: #9F9F9F;
+}
+
+footer .socials .footerMenu ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+footer .socials .socialIcons{
+    font-size: 20px;
+}
+
+footer .socials .footerMenu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 8px;
+    font-size: 12px;
+    color: #585858;
+}
+
+@media(max-width:992px) {
+    .info .infoDetail .tabContent .Backimage {
+        display: none;
+    }
+    .navbar{
+
+    }
+}
+@media(max-width:480px){
+    .exhibition .tabnavigation .tabs li{
+        margin: 0 8px;
+    }
+    footer .attendance .inputBox button{
+        margin-top: 8px;
+    }
+    footer .circles .circle{
+        margin: 0 14px;
+    }
+    .tabnavigation nav .tabs li {
+        margin: 0 12px;
+    }
+}
+@media(max-width:768px){
+    footer .socials {
+        flex-direction: column;
+    }
+    footer .socials .career{
+        margin-bottom: 16px;
+    }
+    footer .socials .socialIcons{
+        margin-bottom: 16px;
+    }
+}
+

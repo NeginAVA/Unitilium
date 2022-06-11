@@ -1,0 +1,33 @@
+$primaryBlue    : #52c3ff;
+$secondaryBlack :#282828;
+$white          :#ffffff;
+
+@mixin flexCenter($direction) {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    flex-direction : $direction;
+
+}
+
+@mixin flexBetween {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+recButton {
+    width        : 160px;
+    height       : 48px;
+    border-radius: 8px;
+    border       : none;
+    font-size    : 18px;
+    line-height  : 24px;
+    cursor       : pointer;
+    @include flexCenter(row);
+
+    i {
+        @include flexCenter(row);
+        margin-right: 10px;
+    }
+}

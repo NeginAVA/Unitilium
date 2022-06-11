@@ -1,0 +1,122 @@
+@import "./variables";
+
+header {
+
+    padding         : 30px 120px;
+    background-color: #52c3ff;
+    color           : $white;
+
+    button.recButton {
+        @extend recButton;
+        color           : $primaryBlue;
+        background-color: $white;
+
+
+    }
+
+    .navbar {
+        @include flexBetween;
+        background-color: $primaryBlue;
+        margin-bottom   : 40px;
+
+        .navbar-brand {
+            display        : flex;
+            align-items    : center;
+            text-decoration: none;
+
+            .logo {
+                width     : 80px;
+                height    : 32px;
+                overflow  : visible;
+                object-fit: contain;
+            }
+
+            .brand-name {
+                margin: 0 14px 0px 14px;
+
+                font-size     : 40px;
+                font-weight   : 700;
+                line-height   : 1.2;
+                list-style    : none;
+                letter-spacing: normal;
+                text-align    : left;
+                color         : $white
+            }
+        }
+
+        .right-nav {
+            @include flexCenter(row);
+
+            .navbar-nav {
+                @include flexBetween;
+                flex-direction: row;
+                margin        : 0 16px;
+                color         : $white;
+
+                .nav-item {
+                    font-size   : 18px;
+                    font-weight : 500;
+                    line-height : 24px;
+                    margin-right: 24px;
+
+                    .nav-link {
+                        transition: ease-in-out 0.3s;
+                        color     : $white;
+
+                        &:hover {
+                            font-size: 19px;
+                        }
+
+                        &.active {
+                            font-size    : 19px;
+                            border-bottom: 1px solid;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-header {
+
+
+
+        .head-title {
+            h1.head-title-text {
+                font-size    : 56px;
+                font-weight  : 700;
+                line-height  : 62px;
+                margin-bottom: 20px;
+
+            }
+
+            .head-title-underline {
+                width     : 480px;
+                height    : 34px;
+                object-fit: contain;
+
+            }
+        }
+
+        .head-subtitle {
+            margin: 20px 0;
+
+            p.head-subtitle-text {
+                font-size  : 24px;
+                font-weight: 500;
+                line-height: 28px;
+            }
+        }
+
+        .head-start-btn {
+            margin: 20px 0;
+        }
+
+        .main-header-imageBox {
+            height    : 400px;
+            object-fit: contain;
+            overflow  : hidden;
+        }
+    }
+
+}
