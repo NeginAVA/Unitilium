@@ -1,11 +1,32 @@
 @import "./variables";
 
 main {
+    .section-titles {
+        h2 {
+            font-size    : 56px;
+            font-weight  : 700;
+            line-height  : 62px;
+            margin-bottom: 24px;
+        }
+    }
+
+    .comment-sign {
+        background-color: $secondaryBlack;
+        position        : absolute;
+        bottom          : 80%;
+        left            : 5%;
+        border-radius   : 50%;
+        height          : 58px;
+        width           : 58px;
+        @include flexCenter(row);
+    }
+
     .present-banner {
         @include flexBetween;
         background-color: $secondaryBlack;
         color           : $white;
         padding         : 40px 120px;
+        margin-bottom   : 40px;
 
         .banner-text {
             font-size  : 24px;
@@ -18,6 +39,122 @@ main {
             width     : 200px;
             height    : 30px;
             object-fit: contain;
+        }
+    }
+
+    .comment {
+        background-color: $lightGray;
+        width           : 408px;
+        height          : 165px;
+        padding         : 48px 10px 48px 48px;
+        position        : relative;
+
+        .text {
+            font-weight  : 500;
+            font-size    : 18px;
+            line-height  : 24px;
+            margin-bottom: 6px;
+        }
+
+        .user {
+            font-weight: 700;
+            font-size  : 18px;
+            line-height: 24px;
+        }
+    }
+
+    .service-intro {
+        padding      : 30px 120px;
+        margin-bottom: 40px;
+
+
+        .service-intro-subtitle {
+            font-size  : 24px;
+            font-weight: 600;
+            line-height: 28px;
+        }
+
+
+        .features {
+            margin-top: 60px;
+
+            .feature-box {
+                background-color: $lightGray;
+                width           : 320px;
+                height          : 405px;
+                @include flexCenter(column);
+                position: relative;
+                padding : 30px;
+
+                .head-number {
+                    position: absolute;
+                    top     : 5px;
+                    left    : 8px;
+                }
+
+                .details {
+                    @include flexCenter(column);
+
+                    .feature-icon {
+                        width        : 72px;
+                        height       : 72px;
+                        object-fit   : contain;
+                        margin-bottom: 12px;
+                    }
+
+                    .feature-text {
+                        text-align: center;
+                        margin-top: 12px;
+
+                        .title {
+                            margin-bottom: 40px;
+                            font-weight  : 800;
+                            font-size    : 32px;
+                            line-height  : 40px;
+                        }
+
+                        .text {
+                            font-weight: 700;
+                            font-size  : 16px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        padding: 30px 120px;
+
+        .testimonials-slider {
+            margin-top: 80px;
+        }
+    }
+
+    .statistics-banner {
+        height          : 228px;
+        background-color: $secondaryBlack;
+        display         : flex;
+        align-items     : center;
+        color           : $white;
+
+        padding: 78px 120px;
+
+        .statistics-title {
+
+            font-weight : 500;
+            font-size   : 18px;
+            line-height : 24px;
+            width       : 130px;
+            margin-right: 20px;
+        }
+
+        .middle-line {
+            width           : 1px;
+            height          : 228px;
+            background-color: $white;
+            margin          : 0px 20px;
         }
     }
 }

@@ -203,12 +203,12 @@ header .main-header .head-title .head-title-underline {
 }
 
 header .main-header .head-subtitle {
-  margin: 20px 0;
+  margin: 24px 0;
 }
 
 header .main-header .head-subtitle p.head-subtitle-text {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 28px;
 }
 
@@ -263,6 +263,36 @@ recButton i, header button.recButton i, button i {
   margin-right: 10px;
 }
 
+main .section-titles h2 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-bottom: 24px;
+}
+
+main .comment-sign {
+  background-color: #282828;
+  position: absolute;
+  bottom: 80%;
+  left: 5%;
+  border-radius: 50%;
+  height: 58px;
+  width: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 main .present-banner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -276,6 +306,7 @@ main .present-banner {
   background-color: #282828;
   color: #ffffff;
   padding: 40px 120px;
+  margin-bottom: 40px;
 }
 
 main .present-banner .banner-text {
@@ -289,6 +320,147 @@ main .present-banner .banner-logo {
   height: 30px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+main .comment {
+  background-color: #EDEDED;
+  width: 408px;
+  height: 165px;
+  padding: 48px 10px 48px 48px;
+  position: relative;
+}
+
+main .comment .text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+
+main .comment .user {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+main .service-intro {
+  padding: 30px 120px;
+  margin-bottom: 40px;
+}
+
+main .service-intro .service-intro-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+main .service-intro .features {
+  margin-top: 60px;
+}
+
+main .service-intro .features .feature-box {
+  background-color: #EDEDED;
+  width: 320px;
+  height: 405px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  padding: 30px;
+}
+
+main .service-intro .features .feature-box .head-number {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+}
+
+main .service-intro .features .feature-box .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .service-intro .features .feature-box .details .feature-icon {
+  width: 72px;
+  height: 72px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 12px;
+}
+
+main .service-intro .features .feature-box .details .feature-text {
+  text-align: center;
+  margin-top: 12px;
+}
+
+main .service-intro .features .feature-box .details .feature-text .title {
+  margin-bottom: 40px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+main .service-intro .features .feature-box .details .feature-text .text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+main .testimonials {
+  padding: 30px 120px;
+}
+
+main .testimonials .testimonials-slider {
+  margin-top: 80px;
+}
+
+main .statistics-banner {
+  height: 228px;
+  background-color: #282828;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  padding: 78px 120px;
+}
+
+main .statistics-banner .statistics-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  width: 130px;
+  margin-right: 20px;
+}
+
+main .statistics-banner .middle-line {
+  width: 1px;
+  height: 228px;
+  background-color: #ffffff;
+  margin: 0px 20px;
 }
 
 div {
