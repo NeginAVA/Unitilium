@@ -129,6 +129,11 @@ main {
 
         .testimonials-slider {
             margin-top: 80px;
+            .owl-carousel {
+                .item{
+                    padding-top: 35px;
+                }
+            }
         }
     }
 

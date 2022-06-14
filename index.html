@@ -113,8 +113,8 @@
                     </div>
                 </div>
                 <div class="col-12 features">
-                    <div class="row">
-                        <div class="col-4">
+                    <div class="row justify-content-between">
+                        <div class="col-3">
                             <div class="feature-box">
                                 <span class="head-number">01</span>
                                 <div class="details">
@@ -129,7 +129,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="feature-box">
                                 <span class="head-number">02</span>
                                 <div class="details">
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="feature-box">
                                 <span class="head-number">03</span>
                                 <div class="details">
@@ -232,29 +232,17 @@
             </div>
         </div>
     </main>
+    <script src="./js/jquery.js"></script>
     <script src="./js/bootstrap.js"></script>
     <script src="./js/owl.carousel.js"></script>
     <script>
-        $('.loop').owlCarousel({
-            center: true,
+        $('.testimonials-slider .owl-carousel').owlCarousel({
+
             items: 2.5,
             loop: true,
-            margin: 10,
+            margin: 100,
+            dots : false,
             responsive: {
-                600: {
-                    items: 3
-                }
-            }
-        });
-        $('.nonloop').owlCarousel({
-            center: true,
-            items: 2,
-            loop: false,
-            margin: 10,
-            responsive: {
-                600: {
-                    items: 4
-                }
             }
         });
     </script>

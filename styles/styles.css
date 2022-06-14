@@ -273,7 +273,7 @@ main .section-titles h2 {
 main .comment-sign {
   background-color: #282828;
   position: absolute;
-  bottom: 80%;
+  bottom: calc(100% - 30px);
   left: 5%;
   border-radius: 50%;
   height: 58px;
@@ -324,9 +324,10 @@ main .present-banner .banner-logo {
 
 main .comment {
   background-color: #EDEDED;
-  width: 408px;
-  height: 165px;
-  padding: 48px 10px 48px 48px;
+  /* width: 408px; */
+  /* height: 165px; */
+  /* padding: 48px 10px 48px 48px; */
+  padding: 48px 48px 18px 10px;
   position: relative;
 }
 
@@ -360,8 +361,8 @@ main .service-intro .features {
 
 main .service-intro .features .feature-box {
   background-color: #EDEDED;
-  width: 320px;
-  height: 405px;
+  /* width: 320px; */
+  /* height: 405px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -376,13 +377,14 @@ main .service-intro .features .feature-box {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  padding: 30px;
+  padding: 100px 50px;
 }
 
 main .service-intro .features .feature-box .head-number {
   position: absolute;
   top: 5px;
   left: 8px;
+  font-weight: 700;
 }
 
 main .service-intro .features .feature-box .details {
@@ -433,6 +435,9 @@ main .testimonials {
 
 main .testimonials .testimonials-slider {
   margin-top: 80px;
+}
+main .testimonials .testimonials-slider .owl-carousel .item{
+      padding-top: 35px;
 }
 
 main .statistics-banner {
