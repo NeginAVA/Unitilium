@@ -1,4 +1,4 @@
-recButton, header button.recButton, button {
+recButton, header button.recButton {
   width: 160px;
   height: 48px;
   border-radius: 8px;
@@ -6,39 +6,20 @@ recButton, header button.recButton, button {
   font-size: 18px;
   line-height: 24px;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-
-recButton i, header button.recButton i, button i {
-  display: -webkit-box;
-  display: -ms-flexbox;
+recButton i, header button.recButton i {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   margin-right: 10px;
 }
 
-recButton, header button.recButton, button {
+recButton, header button.recButton {
   width: 160px;
   height: 48px;
   border-radius: 8px;
@@ -46,35 +27,16 @@ recButton, header button.recButton, button {
   font-size: 18px;
   line-height: 24px;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-
-recButton i, header button.recButton i, button i {
-  display: -webkit-box;
-  display: -ms-flexbox;
+recButton i, header button.recButton i {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   margin-right: 10px;
 }
 
@@ -83,44 +45,28 @@ header {
   background-color: #52c3ff;
   color: #ffffff;
 }
-
 header button.recButton {
   color: #52c3ff;
   background-color: #ffffff;
 }
-
 header .navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   background-color: #52c3ff;
   margin-bottom: 40px;
 }
-
 header .navbar .navbar-brand {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-decoration: none;
 }
-
 header .navbar .navbar-brand .logo {
   width: 80px;
   height: 32px;
   overflow: visible;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
-
 header .navbar .navbar-brand .brand-name {
   margin: 0 14px 0px 14px;
   font-size: 40px;
@@ -131,99 +77,66 @@ header .navbar .navbar-brand .brand-name {
   text-align: left;
   color: #ffffff;
 }
-
 header .navbar .right-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-
 header .navbar .right-nav .navbar-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
   margin: 0 16px;
   color: #ffffff;
 }
-
 header .navbar .right-nav .navbar-nav .nav-item {
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
   margin-right: 24px;
 }
-
 header .navbar .right-nav .navbar-nav .nav-item .nav-link {
-  -webkit-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
   color: #ffffff;
 }
-
 header .navbar .right-nav .navbar-nav .nav-item .nav-link:hover {
   font-size: 19px;
 }
-
 header .navbar .right-nav .navbar-nav .nav-item .nav-link.active {
   font-size: 19px;
   border-bottom: 1px solid;
 }
-
 header .main-header .head-title h1.head-title-text {
   font-size: 56px;
   font-weight: 700;
   line-height: 62px;
   margin-bottom: 20px;
 }
-
 header .main-header .head-title .head-title-underline {
   width: 480px;
   height: 34px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
-
 header .main-header .head-subtitle {
   margin: 24px 0;
 }
-
 header .main-header .head-subtitle p.head-subtitle-text {
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
 }
-
 header .main-header .head-start-btn {
   margin: 20px 0;
 }
-
 header .main-header .main-header-imageBox {
   height: 400px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   overflow: hidden;
 }
 
-recButton, header button.recButton, button {
+recButton, header button.recButton {
   width: 160px;
   height: 48px;
   border-radius: 8px;
@@ -231,35 +144,179 @@ recButton, header button.recButton, button {
   font-size: 18px;
   line-height: 24px;
   cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+recButton i, header button.recButton i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 10px;
 }
 
-recButton i, header button.recButton i, button i {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.typography__h1 {
+  font-size: 56px;
+  line-height: 62px;
+}
+.typography__h2 {
+  font-size: 48px;
+  line-height: 56px;
+}
+.typography__h3 {
+  font-size: 40px;
+  line-height: 48px;
+}
+.typography__h4 {
+  font-size: 32px;
+  line-height: 40px;
+}
+.typography__h5 {
+  font-size: 24px;
+  line-height: 30px;
+}
+.typography__h6 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.typography__body {
+  font-size: 18px;
+  line-height: 24px;
+}
+.typography__subtitle {
+  font-size: 16px;
+  line-height: 20px;
+}
+.typography__caption {
+  font-size: 14px;
+  line-height: 18px;
+}
+.typography__overline {
+  font-size: 12px;
+  line-height: 16px;
+}
+.typography.color__1 {
+  color: #ffffff;
+}
+.typography.color__2 {
+  color: #00b2ff;
+}
+.typography.color__3 {
+  color: #292c32;
+}
+.typography.weight__400 {
+  font-weight: 400;
+}
+.typography.weight__bold {
+  font-weight: 700;
+}
+.typography.weight__extrabold {
+  font-weight: 800;
+}
+
+recButton, header button.recButton {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+recButton i, header button.recButton i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.bgcolor__1 {
+  background-color: #00b2ff;
+}
+.bgcolor__2 {
+  background-color: #ecf0ff;
+}
+.bgcolor__3 {
+  background-color: #efefef;
+}
+.bgcolor__4 {
+  background-color: #282828;
+}
+.bgcolor__5 {
+  background-color: #7b61ff;
+}
+.bgcolor__6 {
+  background-color: #e6ffe2;
+}
+.bgcolor__7 {
+  background-color: #3ac922;
+}
+.bgcolor__8 {
+  background-color: #ff7f37;
+}
+.bgcolor__9 {
+  background-color: #ff4545;
+}
+.bgcolor__10 {
+  background-color: #efd02c;
+}
+
+recButton, header button.recButton {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+recButton i, header button.recButton i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.radius__1 {
+  border-radius: 4px;
+}
+.radius__2 {
+  border-radius: 8px;
+}
+.radius__3 {
+  border-radius: 16px;
+}
+
+recButton, header button.recButton {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+recButton i, header button.recButton i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   margin-right: 10px;
 }
 
@@ -269,190 +326,128 @@ main .section-titles h2 {
   line-height: 62px;
   margin-bottom: 24px;
 }
-
 main .comment-sign {
   background-color: #282828;
   position: absolute;
-  bottom: calc(100% - 30px);
+  bottom: 80%;
   left: 5%;
   border-radius: 50%;
   height: 58px;
   width: 58px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-
 main .present-banner {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   background-color: #282828;
   color: #ffffff;
   padding: 40px 120px;
   margin-bottom: 40px;
 }
-
 main .present-banner .banner-text {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
 }
-
 main .present-banner .banner-logo {
   width: 200px;
   height: 30px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
-
 main .comment {
   background-color: #EDEDED;
-  /* width: 408px; */
-  /* height: 165px; */
-  /* padding: 48px 10px 48px 48px; */
-  padding: 48px 48px 18px 10px;
+  width: 408px;
+  height: 165px;
+  padding: 48px 10px 48px 48px;
   position: relative;
 }
-
 main .comment .text {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 6px;
 }
-
 main .comment .user {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
 }
-
 main .service-intro {
   padding: 30px 120px;
   margin-bottom: 40px;
 }
-
 main .service-intro .service-intro-subtitle {
   font-size: 24px;
   font-weight: 600;
   line-height: 28px;
 }
-
 main .service-intro .features {
   margin-top: 60px;
 }
-
 main .service-intro .features .feature-box {
   background-color: #EDEDED;
-  /* width: 320px; */
-  /* height: 405px; */
-  display: -webkit-box;
-  display: -ms-flexbox;
+  width: 320px;
+  height: 405px;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   position: relative;
-  padding: 100px 50px;
+  padding: 30px;
 }
-
 main .service-intro .features .feature-box .head-number {
   position: absolute;
   top: 5px;
   left: 8px;
-  font-weight: 700;
 }
-
 main .service-intro .features .feature-box .details {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
 main .service-intro .features .feature-box .details .feature-icon {
   width: 72px;
   height: 72px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   margin-bottom: 12px;
 }
-
 main .service-intro .features .feature-box .details .feature-text {
   text-align: center;
   margin-top: 12px;
 }
-
 main .service-intro .features .feature-box .details .feature-text .title {
   margin-bottom: 40px;
   font-weight: 800;
   font-size: 32px;
   line-height: 40px;
 }
-
 main .service-intro .features .feature-box .details .feature-text .text {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
 }
-
 main .testimonials {
   padding: 30px 120px;
 }
-
 main .testimonials .testimonials-slider {
   margin-top: 80px;
 }
-main .testimonials .testimonials-slider .owl-carousel .item{
-      padding-top: 35px;
+main .testimonials .testimonials-slider .owl-carousel .item {
+  padding-top: 35px;
 }
-
 main .statistics-banner {
   height: 228px;
   background-color: #282828;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   color: #ffffff;
   padding: 78px 120px;
 }
-
 main .statistics-banner .statistics-title {
   font-weight: 500;
   font-size: 18px;
@@ -460,7 +455,6 @@ main .statistics-banner .statistics-title {
   width: 130px;
   margin-right: 20px;
 }
-
 main .statistics-banner .middle-line {
   width: 1px;
   height: 228px;
@@ -503,8 +497,11 @@ a {
   list-style: none;
 }
 
+ul,
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -512,4 +509,69 @@ body {
   font-family: Mulish, sans-serif, serif;
   font-style: normal;
 }
+
+html {
+  height: 100%;
+}
+
+.panel {
+  height: 100%;
+}
+.panel .menu-left {
+  height: 100%;
+  width: 200px;
+  background-color: #282828;
+  padding: 38px 18px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.panel .menu-left .nav {
+  display: block;
+}
+.panel .menu-left .nav ul li {
+  margin: 20px 0;
+  border-radius: 4px;
+  padding: 10px;
+}
+.panel .menu-left .nav ul li:first-child {
+  margin-top: 0;
+}
+.panel .menu-left .nav ul li:last-child {
+  margin-bottom: 0;
+}
+.panel .menu-left .nav ul li a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.panel .menu-left .nav ul li a i {
+  font-size: 24px;
+  padding-right: 18px;
+}
+.panel .menu-left .nav ul li.active {
+  background-color: #5D3DFF;
+}
+.panel .content {
+  padding-left: 200px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  background-color: #282828;
+}
+.avatar a {
+  display: block;
+}
+.avatar a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /*# sourceMappingURL=styles.css.map */
