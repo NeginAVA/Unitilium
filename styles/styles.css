@@ -273,7 +273,7 @@ main .section-titles h2 {
 main .comment-sign {
   background-color: #282828;
   position: absolute;
-  bottom: calc(100% - 30px);
+  bottom: 80%;
   left: 5%;
   border-radius: 50%;
   height: 58px;
@@ -291,6 +291,10 @@ main .comment-sign {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+main .comment-sign img {
+  width: 48px !important;
 }
 
 main .present-banner {
@@ -324,10 +328,9 @@ main .present-banner .banner-logo {
 
 main .comment {
   background-color: #EDEDED;
-  /* width: 408px; */
-  /* height: 165px; */
-  /* padding: 48px 10px 48px 48px; */
-  padding: 48px 48px 18px 10px;
+  width: 408px;
+  height: 165px;
+  padding: 48px 10px 48px 48px;
   position: relative;
 }
 
@@ -346,7 +349,7 @@ main .comment .user {
 
 main .service-intro {
   padding: 30px 120px;
-  margin-bottom: 40px;
+  margin: 60px 0;
 }
 
 main .service-intro .service-intro-subtitle {
@@ -361,8 +364,8 @@ main .service-intro .features {
 
 main .service-intro .features .feature-box {
   background-color: #EDEDED;
-  /* width: 320px; */
-  /* height: 405px; */
+  width: 320px;
+  height: 405px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -377,14 +380,13 @@ main .service-intro .features .feature-box {
       -ms-flex-direction: column;
           flex-direction: column;
   position: relative;
-  padding: 100px 50px;
+  padding: 30px;
 }
 
 main .service-intro .features .feature-box .head-number {
   position: absolute;
   top: 5px;
   left: 8px;
-  font-weight: 700;
 }
 
 main .service-intro .features .feature-box .details {
@@ -431,13 +433,15 @@ main .service-intro .features .feature-box .details .feature-text .text {
 
 main .testimonials {
   padding: 30px 120px;
+  margin: 60px 0;
 }
 
 main .testimonials .testimonials-slider {
-  margin-top: 80px;
+  margin-top: 60px;
 }
-main .testimonials .testimonials-slider .owl-carousel .item{
-      padding-top: 35px;
+
+main .testimonials .testimonials-slider .owl-carousel .item {
+  padding-top: 35px;
 }
 
 main .statistics-banner {
@@ -449,7 +453,7 @@ main .statistics-banner {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #ffffff;
+  color: #D9D9D9;
   padding: 78px 120px;
 }
 
@@ -457,7 +461,7 @@ main .statistics-banner .statistics-title {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
-  width: 130px;
+  width: 160px;
   margin-right: 20px;
 }
 
@@ -466,6 +470,374 @@ main .statistics-banner .middle-line {
   height: 228px;
   background-color: #ffffff;
   margin: 0px 20px;
+}
+
+main .statistics-banner .datas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: -webkit-fill-available;
+}
+
+main .statistics-banner .datas .statistics {
+  padding: 0 50px;
+}
+
+main .statistics-banner .datas .statistics .title {
+  margin-bottom: 10px;
+}
+
+main .statistics-banner .datas .statistics .title h3 {
+  font-size: 56px;
+  line-height: 62px;
+  font-weight: 900;
+}
+
+main .statistics-banner .datas .subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: self-end;
+      -ms-flex-align: self-end;
+          align-items: self-end;
+}
+
+main .statistics-banner .datas .subtitle img.icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 6px;
+}
+
+main .statistics-banner .datas .subtitle p.text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+main .pricing {
+  margin: 60px 0;
+  padding: 30px 120px;
+}
+
+main .pricing .pricing-boxes {
+  margin-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .pricing .pricing-boxes .price-box-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-bottom: 20px;
+}
+
+main .pricing .pricing-boxes .price-box-title h2 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 60px;
+}
+
+main .pricing .pricing-boxes .price-box-title h2.faded-title {
+  opacity: 25%;
+}
+
+main .pricing .pricing-boxes .price-box-subtitle {
+  width: 350px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 900;
+}
+
+main .pricing .pricing-boxes .price-box-options {
+  margin: 20px 0;
+}
+
+main .pricing .pricing-boxes .price-box-options ul {
+  padding: 0;
+}
+
+main .pricing .pricing-boxes .price-box-options ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+main .pricing .pricing-boxes .price-box-options ul li .list-square {
+  border-radius: 2px;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+main .pricing .pricing-boxes .try-btn {
+  width: 93px;
+  height: 48px;
+}
+
+main .pricing .pricing-boxes .try-btn a {
+  padding: 12px 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+main .pricing .pricing-boxes .try-btn a.blue {
+  background-color: #00B2FF;
+  color: #ffffff;
+}
+
+main .pricing .pricing-boxes .try-btn a.white {
+  color: #00B2FF;
+  background-color: #ffffff;
+}
+
+main .pricing .pricing-boxes .first-box {
+  width: 460px;
+  height: 460px;
+  background-color: #ffffff;
+  color: #282828;
+  padding: 15px 60px;
+  position: relative;
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+main .pricing .pricing-boxes .first-box .top-image {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 70px;
+}
+
+main .pricing .pricing-boxes .first-box .list-square {
+  background: #396AFC;
+  background: linear-gradient(220deg, #396AFC 14%, #2948FF 116%);
+}
+
+main .pricing .pricing-boxes .first-box .try-btn {
+  position: absolute;
+  left: 230px;
+  bottom: -25px;
+}
+
+main .pricing .pricing-boxes .second-box {
+  width: 640px;
+  height: 580px;
+  background-color: #00B2FF;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+  padding: 40px 80px;
+  position: relative;
+}
+
+main .pricing .pricing-boxes .second-box .shape-img {
+  position: absolute;
+  width: 486px;
+  bottom: 300px;
+  right: -115px;
+}
+
+main .pricing .pricing-boxes .second-box .top-image {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 20px;
+}
+
+main .pricing .pricing-boxes .second-box .pro-btn {
+  width: 141px;
+  height: 45px;
+  background-color: #ffffff;
+  color: #00B2FF;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+main .pricing .pricing-boxes .second-box .pro-btn a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+main .pricing .pricing-boxes .second-box .pro-btn a:hover {
+  color: inherit;
+}
+
+main .pricing .pricing-boxes .second-box .list-square {
+  background: #ffffff;
+}
+
+recButton, header button.recButton, button {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+recButton i, header button.recButton i, button i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #EEEEEE;
+  padding: 80px 160px;
+}
+
+footer .logo {
+  width: 78px;
+  height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 16px;
+}
+
+footer .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+footer .social-media-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .social-media-links .link {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+footer .quick-access-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .quick-access-links ul {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+footer .quick-access-links ul li {
+  margin-bottom: 12px;
+}
+
+footer .quick-access-links ul li.list-title {
+  font-weight: 700;
 }
 
 div {
