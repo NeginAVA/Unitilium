@@ -1,4 +1,4 @@
-recButton, header button.recButton, button {
+recButton, header button.recButton {
   width: 160px;
   height: 48px;
   border-radius: 8px;
@@ -21,7 +21,7 @@ recButton, header button.recButton, button {
           flex-direction: row;
 }
 
-recButton i, header button.recButton i, button i {
+recButton i, header button.recButton i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +38,7 @@ recButton i, header button.recButton i, button i {
   margin-right: 10px;
 }
 
-recButton, header button.recButton, button {
+recButton, header button.recButton {
   width: 160px;
   height: 48px;
   border-radius: 8px;
@@ -61,7 +61,7 @@ recButton, header button.recButton, button {
           flex-direction: row;
 }
 
-recButton i, header button.recButton i, button i {
+recButton i, header button.recButton i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,7 +223,7 @@ header .main-header .main-header-imageBox {
   overflow: hidden;
 }
 
-recButton, header button.recButton, button {
+recButton, header button.recButton {
   width: 160px;
   height: 48px;
   border-radius: 8px;
@@ -246,7 +246,253 @@ recButton, header button.recButton, button {
           flex-direction: row;
 }
 
-recButton i, header button.recButton i, button i {
+recButton i, header button.recButton i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+}
+
+.typography__h1 {
+  font-size: 56px;
+  line-height: 62px;
+}
+
+.typography__h2 {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.typography__h3 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.typography__h4 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.typography__h5 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.typography__h6 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.typography__body {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.typography__subtitle {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.typography__caption {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.typography__overline {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.typography.color__1 {
+  color: #ffffff;
+}
+
+.typography.color__2 {
+  color: #00b2ff;
+}
+
+.typography.color__3 {
+  color: #292c32;
+}
+
+.typography.weight__400 {
+  font-weight: 400;
+}
+
+.typography.weight__bold {
+  font-weight: 700;
+}
+
+.typography.weight__extrabold {
+  font-weight: 800;
+}
+
+recButton, header button.recButton {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+recButton i, header button.recButton i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+}
+
+.bgcolor__1 {
+  background-color: #00b2ff;
+}
+
+.bgcolor__2 {
+  background-color: #ecf0ff;
+}
+
+.bgcolor__3 {
+  background-color: #efefef;
+}
+
+.bgcolor__4 {
+  background-color: #282828;
+}
+
+.bgcolor__5 {
+  background-color: #7b61ff;
+}
+
+.bgcolor__6 {
+  background-color: #e6ffe2;
+}
+
+.bgcolor__7 {
+  background-color: #3ac922;
+}
+
+.bgcolor__8 {
+  background-color: #ff7f37;
+}
+
+.bgcolor__9 {
+  background-color: #ff4545;
+}
+
+.bgcolor__10 {
+  background-color: #efd02c;
+}
+
+recButton, header button.recButton {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+recButton i, header button.recButton i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+}
+
+.radius__1 {
+  border-radius: 4px;
+}
+
+.radius__2 {
+  border-radius: 8px;
+}
+
+.radius__3 {
+  border-radius: 16px;
+}
+
+recButton, header button.recButton {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+recButton i, header button.recButton i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -744,7 +990,7 @@ main .pricing .pricing-boxes .second-box .list-square {
   background: #ffffff;
 }
 
-recButton, header button.recButton, button {
+recButton, header button.recButton {
   width: 160px;
   height: 48px;
   border-radius: 8px;
@@ -767,7 +1013,7 @@ recButton, header button.recButton, button {
           flex-direction: row;
 }
 
-recButton i, header button.recButton i, button i {
+recButton i, header button.recButton i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -875,13 +1121,92 @@ a {
   list-style: none;
 }
 
+ul,
 li {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
   font-family: Mulish, sans-serif, serif;
   font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+
+.panel {
+  height: 100%;
+}
+
+.panel .menu-left {
+  height: 100%;
+  width: 200px;
+  background-color: #282828;
+  padding: 38px 18px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.panel .menu-left .nav {
+  display: block;
+}
+
+.panel .menu-left .nav ul li {
+  margin: 20px 0;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.panel .menu-left .nav ul li:first-child {
+  margin-top: 0;
+}
+
+.panel .menu-left .nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+.panel .menu-left .nav ul li a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.panel .menu-left .nav ul li a i {
+  font-size: 24px;
+  padding-right: 18px;
+}
+
+.panel .menu-left .nav ul li.active {
+  background-color: #5D3DFF;
+}
+
+.panel .content {
+  padding-left: 200px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  background-color: #282828;
+}
+
+.avatar a {
+  display: block;
+}
+
+.avatar a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=styles.css.map */

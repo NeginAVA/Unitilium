@@ -1,0 +1,13 @@
+@import "./variables";
+
+.radius {
+  &__1 {
+    border-radius: 4px;
+  }
+  &__2 {
+    border-radius: 8px;
+  }
+  &__3 {
+    border-radius: 16px;
+  }
+}
