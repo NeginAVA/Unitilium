@@ -1,0 +1,147 @@
+@import "./variables";
+
+.panel {
+    height: 100%;
+}
+
+.panel .menu-left {
+    height          : 100%;
+    width           : 200px;
+    background-color: #282828;
+    padding         : 38px 18px;
+    position        : fixed;
+    left            : 0;
+    top             : 0;
+}
+
+.panel .menu-left .nav {
+    display: block;
+}
+
+.panel .menu-left .nav ul li {
+    margin       : 20px 0;
+    border-radius: 4px;
+    padding      : 10px;
+    height       : 42px;
+}
+
+.panel .menu-left .nav ul li:first-child {
+    margin-top: 0;
+}
+
+.panel .menu-left .nav ul li:last-child {
+    margin-bottom: 0;
+}
+
+.panel .menu-left .nav ul li a {
+    display       : block;
+    font-size     : 12px;
+    color         : #fff;
+    text-transform: capitalize;
+    font-weight   : 700;
+}
+
+.panel .menu-left .nav ul li a img {
+    width       : 24px;
+    height      : 24px;
+    object-fit  : contain;
+    margin-right: 14px;
+}
+
+.panel .menu-left .nav ul li.active {
+    background-color: #5D3DFF;
+}
+
+.panel .content {
+    padding-left: 200px;
+}
+
+.profile-details {
+    button {
+        &.btn {
+            width : 45px;
+            height: 45px;
+            @include flexCenter(row);
+
+            img {
+                width : 24px !important;
+                height: 24px;
+
+
+            }
+        }
+    }
+
+    .avatar {
+        border-radius   : 50%;
+        width           : 56px;
+        height          : 56px;
+        overflow        : hidden;
+        border          : hidden;
+        background-color: inherit;
+
+        a {
+            display: block;
+
+            img {
+                width        : 100%;
+                height       : 100%;
+                -o-object-fit: cover;
+                object-fit   : cover;
+            }
+
+        }
+    }
+}
+
+
+
+.content {
+    height: 100%;
+
+    .row {
+        &.content-divider {
+            height: 100%;
+        }
+    }
+
+    .activity-bar {
+        height: 100%;
+
+        .activity-item {
+            border-bottom: 1px solid $fosil;
+
+            .single-activity {
+                p {
+                    margin-bottom: 12px;
+
+                    span {
+                        &.dot {
+                            width           : 10px;
+                            height          : 10px;
+                            border-radius   : 50%;
+                            margin-right    : 4px;
+                            background-color: $elephant;
+                            color           : $elephant;
+                            display         : inline-block;
+                        }
+                    }
+                }
+            }
+
+            .activity-icon {
+                width           : 80px;
+                height          : 80px;
+                border-radius   : 15px 0px 0px 0px;
+                align-self      : end;
+                background-color: $white;
+                justify-self    : end;
+                @include flexCenter(row)
+            }
+        }
+    }
+
+
+}
+
+/*# sourceMappingURL=styles.css.map */

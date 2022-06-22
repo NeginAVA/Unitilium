@@ -1,3 +1,8 @@
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
+}
+
 recButton, header button.recButton {
   width: 160px;
   height: 48px;
@@ -36,6 +41,11 @@ recButton i, header button.recButton i {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-right: 10px;
+}
+
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
 }
 
 recButton, header button.recButton {
@@ -223,6 +233,11 @@ header .main-header .main-header-imageBox {
   overflow: hidden;
 }
 
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
+}
+
 recButton, header button.recButton {
   width: 160px;
   height: 48px;
@@ -329,12 +344,25 @@ recButton i, header button.recButton i {
   font-weight: 400;
 }
 
+.typography.weight__500 {
+  font-weight: 500;
+}
+
 .typography.weight__bold {
   font-weight: 700;
 }
 
 .typography.weight__extrabold {
   font-weight: 800;
+}
+
+.typography.weight__maxbold {
+  font-weight: 900;
+}
+
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
 }
 
 recButton, header button.recButton {
@@ -417,6 +445,15 @@ recButton i, header button.recButton i {
   background-color: #efd02c;
 }
 
+.bgcolor__11 {
+  background-color: #e5e5e5;
+}
+
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
+}
+
 recButton, header button.recButton {
   width: 160px;
   height: 48px;
@@ -467,6 +504,11 @@ recButton i, header button.recButton i {
 
 .radius__3 {
   border-radius: 16px;
+}
+
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
 }
 
 recButton, header button.recButton {
@@ -990,6 +1032,11 @@ main .pricing .pricing-boxes .second-box .list-square {
   background: #ffffff;
 }
 
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
+}
+
 recButton, header button.recButton {
   width: 160px;
   height: 48px;
@@ -1086,6 +1133,203 @@ footer .quick-access-links ul li.list-title {
   font-weight: 700;
 }
 
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
+}
+
+recButton, header button.recButton {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+recButton i, header button.recButton i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 10px;
+}
+
+.panel {
+  height: 100%;
+}
+
+.panel .menu-left {
+  height: 100%;
+  width: 200px;
+  background-color: #282828;
+  padding: 38px 18px;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.panel .menu-left .nav {
+  display: block;
+}
+
+.panel .menu-left .nav ul li {
+  margin: 20px 0;
+  border-radius: 4px;
+  padding: 10px;
+  height: 42px;
+}
+
+.panel .menu-left .nav ul li:first-child {
+  margin-top: 0;
+}
+
+.panel .menu-left .nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+.panel .menu-left .nav ul li a {
+  display: block;
+  font-size: 12px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.panel .menu-left .nav ul li a img {
+  width: 24px;
+  height: 24px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 14px;
+}
+
+.panel .menu-left .nav ul li.active {
+  background-color: #5D3DFF;
+}
+
+.panel .content {
+  padding-left: 200px;
+}
+
+.profile-details button.btn {
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.profile-details button.btn img {
+  width: 24px !important;
+  height: 24px;
+}
+
+.profile-details .avatar {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+  border: hidden;
+  background-color: inherit;
+}
+
+.profile-details .avatar a {
+  display: block;
+}
+
+.profile-details .avatar a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.content {
+  height: 100%;
+}
+
+.content .row.content-divider {
+  height: 100%;
+}
+
+.content .activity-bar {
+  height: 100%;
+}
+
+.content .activity-bar .activity-item {
+  border-bottom: 1px solid #D7D7D7;
+}
+
+.content .activity-bar .activity-item .single-activity p {
+  margin-bottom: 12px;
+}
+
+.content .activity-bar .activity-item .single-activity p span.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+  background-color: #c5c5c5;
+  color: #c5c5c5;
+  display: inline-block;
+}
+
+.content .activity-bar .activity-item .activity-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px 0px 0px 0px;
+  -ms-flex-item-align: end;
+      align-self: end;
+  background-color: #ffffff;
+  justify-self: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
 div {
   margin: 0;
   padding: 0;
@@ -1172,7 +1416,7 @@ html {
 
 .panel .menu-left .nav ul li a {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   text-transform: capitalize;
   font-weight: 700;

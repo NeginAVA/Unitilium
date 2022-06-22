@@ -4,6 +4,14 @@ $secondaryBlack :#282828;
 $white          :#ffffff;
 $lightGray      :#EDEDED;
 $skyBlue        :#00B2FF;
+$fosil          :#D7D7D7;
+$elephant       :#c5c5c5;
+
+hr {
+    color  : $fosil;
+    opacity: 100%;
+
+}
 
 @mixin flexCenter($direction) {
     display        : flex;
