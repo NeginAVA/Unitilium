@@ -1,0 +1,25 @@
+@import "./variables";
+
+.shadow {
+  &__dropshadow--100 {
+    box-shadow: 0px 0px 10px rgba(132, 132, 132, 0.15);
+  }
+  &__dropshadow--200 {
+    box-shadow: 0px 0px 20px rgba(132, 132, 132, 0.2);
+  }
+  &__dropshadow--300 {
+    box-shadow: 0px 0px 30px rgba(132, 132, 132, 0.25);
+  }
+  &__focus {
+    box-shadow: 0px 0px 0px 2px #000000;
+  }
+  &__stroke {
+    box-shadow: 0px 0px 0px 2px #e8e8e8;
+  }
+  &__focus_btn {
+    box-shadow: 0px 0px 0px 2px #000000;
+  }
+  &__layer_blur {
+    filter: blur(4px);
+  }
+}
