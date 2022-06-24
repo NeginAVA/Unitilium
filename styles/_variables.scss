@@ -42,22 +42,3 @@ recButton {
         margin-right: 10px;
     }
 }
-
-.large-btn {
-
-    height: 48px
-}
-
-.large-tabs {
-    height: 36px;
-
-    &.selected {
-        background-color: $skyBlue;
-        color           : $white;
-    }
-}
-
-.eticket {
-    width : 60px;
-    height: 22px
-}

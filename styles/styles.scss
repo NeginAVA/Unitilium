@@ -148,3 +148,43 @@ html {
     0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
     0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
 }
+
+.large-btn {
+
+  height: 48px
+}
+
+.large-tabs {
+  height: 36px;
+
+  &.selected {
+    background-color: $skyBlue;
+    color           : $white;
+  }
+}
+
+.documents-box {
+  position  : relative;
+  transition: ease-in-out 0.34s;
+
+  &:hover {
+    border-color: $skyBlue !important;
+    color       : $skyBlue !important;
+  }
+
+  .documents-box-info-icon {
+
+    position     : absolute;
+    top          : -10px;
+    right        : -10px;
+    width        : 24px;
+    height       : 24px;
+    border-radius: 50%;
+
+  }
+}
+
+.eticket {
+  width : 60px;
+  height: 22px
+}
