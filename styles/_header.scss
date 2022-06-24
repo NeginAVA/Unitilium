@@ -1,8 +1,8 @@
 @import "./variables";
 
 header {
-
-    padding         : 30px 120px;
+    position        : relative;
+    padding         : 24px 120px;
     background-color: #52c3ff;
     color           : $white;
 
@@ -119,4 +119,28 @@ header {
         }
     }
 
+    .privacy-terms-img {
+        width     : 280px;
+        height    : 80px;
+        object-fit: contain;
+    }
+
+    .signin-link {
+        margin-top: 24px;
+
+        a {
+            transition: ease-in-out 0.5s;
+
+
+        }
+    }
+
+    .signin-btn {
+        width   : 180px;
+        position: absolute;
+        bottom  : -24px;
+        left    : 30%;
+    }
 }
+
+// responsive
