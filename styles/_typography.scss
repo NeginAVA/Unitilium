@@ -2,52 +2,52 @@
 
 .typography {
   &__h1 {
-    font-size: 56px;
+    font-size  : 56px;
     line-height: 62px;
   }
 
   &__h2 {
-    font-size: 48px;
+    font-size  : 48px;
     line-height: 56px;
   }
 
   &__h3 {
-    font-size: 40px;
+    font-size  : 40px;
     line-height: 48px;
   }
 
   &__h4 {
-    font-size: 32px;
+    font-size  : 32px;
     line-height: 40px;
   }
 
   &__h5 {
-    font-size: 24px;
+    font-size  : 24px;
     line-height: 30px;
   }
 
   &__h6 {
-    font-size: 20px;
+    font-size  : 20px;
     line-height: 28px;
   }
 
   &__body {
-    font-size: 18px;
+    font-size  : 18px;
     line-height: 24px;
   }
 
   &__subtitle {
-    font-size: 16px;
+    font-size  : 16px;
     line-height: 20px;
   }
 
   &__caption {
-    font-size: 14px;
+    font-size  : 14px;
     line-height: 18px;
   }
 
   &__overline {
-    font-size: 12px;
+    font-size  : 12px;
     line-height: 16px;
   }
 
@@ -63,24 +63,31 @@
     &__3 {
       color: #292c32;
     }
+
     &__4 {
       color: #e1f6ff;
     }
+
     &__5 {
       color: #5c5c5c;
     }
+
     &__6 {
       color: #181818;
     }
+
     &__7 {
       color: #ff3030;
     }
+
     &__8 {
       color: #52c3ff;
     }
+
     &__9 {
       color: #747474;
     }
+
     &__10 {
       color: #7b61ff;
     }
@@ -105,6 +112,10 @@
 
     &__maxbold {
       font-weight: 900;
+    }
+
+    &__normbold {
+      font-weight: bold;
     }
   }
 }

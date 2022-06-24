@@ -5,13 +5,13 @@
 }
 
 .panel .menu-left {
-  height: 100%;
-  width: 200px;
+  height          : 100%;
+  width           : 200px;
   background-color: #282828;
-  padding: 38px 18px;
-  position: fixed;
-  left: 0;
-  top: 0;
+  padding         : 38px 18px;
+  position        : fixed;
+  left            : 0;
+  top             : 0;
 }
 
 .panel .menu-left .nav {
@@ -19,10 +19,10 @@
 }
 
 .panel .menu-left .nav ul li {
-  margin: 20px 0;
+  margin       : 20px 0;
   border-radius: 4px;
-  padding: 10px;
-  height: 42px;
+  padding      : 10px;
+  height       : 42px;
 }
 
 .panel .menu-left .nav ul li:first-child {
@@ -34,17 +34,17 @@
 }
 
 .panel .menu-left .nav ul li a {
-  display: block;
-  font-size: 12px;
-  color: #fff;
+  display       : block;
+  font-size     : 12px;
+  color         : #fff;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight   : 700;
 }
 
 .panel .menu-left .nav ul li a img {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
+  width       : 24px;
+  height      : 24px;
+  object-fit  : contain;
   margin-right: 14px;
 }
 
@@ -59,33 +59,33 @@
 .profile-details {
   button {
     &.btn {
-      width: 45px;
+      width : 45px;
       height: 45px;
       @include flexCenter(row);
 
       img {
-        width: 24px !important;
+        width : 24px !important;
         height: 24px;
       }
     }
   }
 
   .avatar {
-    border-radius: 50%;
-    width: 56px;
-    height: 56px;
-    overflow: hidden;
-    border: hidden;
+    border-radius   : 50%;
+    width           : 56px;
+    height          : 56px;
+    overflow        : hidden;
+    border          : hidden;
     background-color: inherit;
 
     a {
       display: block;
 
       img {
-        width: 100%;
-        height: 100%;
+        width        : 100%;
+        height       : 100%;
         -o-object-fit: cover;
-        object-fit: cover;
+        object-fit   : cover;
       }
     }
   }
@@ -112,22 +112,26 @@
 
           span {
             &.dot {
-              width: 10px;
-              height: 10px;
-              border-radius: 50%;
-              margin-right: 4px;
+              width           : 10px;
+              height          : 10px;
+              border-radius   : 50%;
+              margin-right    : 4px;
               background-color: $elephant;
-              color: $elephant;
-              display: inline-block;
+              color           : $elephant;
+              display         : inline-block;
             }
           }
         }
       }
 
       .activity-icon {
-        border-radius: 15px 0px 0px 0px;
+        border-radius   : 15px 0px 0px 0px;
         background-color: $white;
         @include flexCenter(row);
+        width       : 95px;
+        height      : 85px;
+        border-right: 1px solid #e5e5e5;
+
       }
     }
   }

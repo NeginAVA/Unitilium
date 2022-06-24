@@ -1,6 +1,10 @@
 @import "./variables";
 
 .bgcolor {
+  &__0 {
+    background-color: transparent;
+  }
+
   &__1 {
     background-color: #00b2ff;
   }
@@ -44,9 +48,11 @@
   &__11 {
     background-color: #e5e5e5;
   }
+
   &__12 {
     background-color: #fff;
   }
+
   &__13 {
     background-color: #f8f8f8;
   }
