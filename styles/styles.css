@@ -392,6 +392,10 @@ recButton i, header button.recButton i {
   color: #7b61ff;
 }
 
+.typography.color__11 {
+  color: #3AC922;
+}
+
 .typography.weight__400 {
   font-weight: 400;
 }
@@ -901,11 +905,11 @@ recButton i, header button.recButton i {
 }
 
 .form-input .input__sucsessful .input--icon {
-  background-color: #b2ffa6;
+  background-color: #EDEDED;
 }
 
 .form-input .input__sucsessful .input--icon i {
-  color: #3ac922;
+  color: #7C7B7B;
 }
 
 .form-input .input__sucsessful label span {
@@ -2087,11 +2091,6 @@ html {
   height: 56px;
   overflow: hidden;
   background-color: inherit;
-}
-
-.avatar.mini {
-  width: 32px;
-  height: 32px;
 }
 
 .avatar a {
