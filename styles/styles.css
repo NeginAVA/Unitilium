@@ -351,6 +351,10 @@ recButton i, header button.recButton i {
   background-color: #ECF0FF;
 }
 
+.bgcolor__15 {
+  background-color: #ededed;
+}
+
 hr {
   color: #D7D7D7;
   opacity: 100%;
