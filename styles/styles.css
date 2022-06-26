@@ -529,6 +529,10 @@ recButton i, header button.recButton i {
   background-color: #ededed;
 }
 
+.bgcolor__16 {
+  background-color: #002ED0;
+}
+
 hr {
   color: #D7D7D7;
   opacity: 100%;
@@ -713,14 +717,14 @@ recButton i, header button.recButton i {
 
 .progressbar {
   width: 100%;
-  height: 18px;
+  height: 10px;
   background-color: #ededed;
   border-radius: 8px;
   overflow: hidden;
 }
 
 .progressbar span {
-  background-color: #52c3ff;
+  background-color: #002ED0;
   -webkit-transition: width 0.43s linear;
   transition: width 0.43s linear;
   display: block;
@@ -843,6 +847,7 @@ recButton i, header button.recButton i {
 
 .form-input .input label {
   padding: 6px 16px;
+  width: 100%;
 }
 
 .form-input .input label span {
@@ -905,19 +910,15 @@ recButton i, header button.recButton i {
 }
 
 .form-input .input__sucsessful .input--icon {
-  background-color: #EDEDED;
+  background-color: #b2ffa6;
 }
 
 .form-input .input__sucsessful .input--icon i {
-  color: #7C7B7B;
+  color: #3ac922;
 }
 
 .form-input .input__sucsessful label span {
   color: #3ac922;
-}
-
-.form-input .input_textarea {
-  width: 100%;
 }
 
 .form-input .input_textarea label {
@@ -929,6 +930,7 @@ recButton i, header button.recButton i {
 }
 
 .form-input .input_textarea textarea {
+  width: 100%;
   background-color: transparent;
   border: none;
   min-height: 100px;
@@ -1155,6 +1157,204 @@ recButton i, header button.recButton i {
   width: 100%;
   height: 100%;
   cursor: pointer;
+}
+
+.form-input .checkbox {
+  position: relative;
+}
+
+.form-input .checkbox input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.form-input .checkbox span {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #d7d7d7;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+}
+
+.form-input .checkbox span i {
+  font-size: 10px;
+  display: none;
+}
+
+.form-input .checkbox.checked span {
+  background-color: #52c3ff;
+  border-color: #2d5bff;
+}
+
+.form-input .checkbox.checked span i {
+  display: block;
+}
+
+.form-input .checkbox:hover span, .form-input .checkbox.hover span {
+  border-color: #1b4af0;
+}
+
+.form-input .checkbox:hover.checked span, .form-input .checkbox.hover.checked span {
+  background-color: #1b4af0;
+}
+
+.form-input .checkbox:focus-within span, .form-input .checkbox.focus span {
+  border-color: #ff7f37;
+}
+
+.form-input .checkbox:focus-within.checked span, .form-input .checkbox.focus.checked span {
+  background-color: #002ed0;
+}
+
+.form-input .checkbox:disabled span, .form-input .checkbox.disabled span {
+  color: #8a8a8a;
+  border-color: #8a8a8a;
+  background-color: #efefef;
+}
+
+.form-input .radio {
+  position: relative;
+}
+
+.form-input .radio input {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.form-input .radio span {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #d7d7d7;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 0px 2px transparent;
+  box-shadow: 0px 0px 0px 2px transparent;
+  border-radius: 50%;
+  color: #fff;
+  display: block;
+}
+
+.form-input .radio.checked span {
+  border-color: #52c3ff;
+  -webkit-box-shadow: 0px 0px 0px 2px #2d5bff;
+  box-shadow: 0px 0px 0px 2px #2d5bff;
+  border-width: 8px;
+}
+
+.form-input .radio:hover span, .form-input .radio.hover span {
+  border-color: #1b4af0;
+}
+
+.form-input .radio:focus-within span, .form-input .radio.focus span {
+  border-color: #2d5bff;
+  -webkit-box-shadow: 0px 0px 0px 2px #ff7f37;
+  box-shadow: 0px 0px 0px 2px #ff7f37;
+}
+
+.form-input .radio:disabled span, .form-input .radio.disabled span {
+  color: #8a8a8a;
+  border-color: #8a8a8a;
+  background-color: #efefef;
+  -webkit-box-shadow: 0px 0px 0px 2px transparent;
+  box-shadow: 0px 0px 0px 2px transparent;
+}
+
+.form-input .switch-checbox {
+  /* ---- toggle switching cricle design code ---- */
+}
+
+.form-input .switch-checbox label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.form-input .switch-checbox input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.form-input .switch-checbox input:checked~span {
+  background: #14b45c;
+}
+
+.form-input .switch-checbox input:checked~span:after {
+  left: 24px;
+  background: whitesmoke;
+}
+
+.form-input .switch-checbox input:checked~span:active::after {
+  left: 17px;
+  background: whitesmoke;
+}
+
+.form-input .switch-checbox input:not(:checked)~span:active {
+  background: #a3a3a3;
+}
+
+.form-input .switch-checbox input:not(:checked)~span:active::after {
+  background: #f8f8f8;
+}
+
+.form-input .switch-checbox .toggle_background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 58px;
+  height: 32px;
+  position: relative;
+  cursor: pointer;
+  background: #babacc;
+  border-radius: 2em;
+  border: 2px transparent solid;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.form-input .switch-checbox .toggle_background::after {
+  content: "";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  left: 0px;
+  top: 0px;
+  border-radius: 50px;
+  background: #f0f5f9;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.253);
+  box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.253);
+}
+
+.form-input .switch-checbox span:active:after {
+  width: 70%;
 }
 
 hr {
@@ -1681,6 +1881,80 @@ main .pricing .pricing-boxes .second-box .pro-btn a:hover {
 
 main .pricing .pricing-boxes .second-box .list-square {
   background: #ffffff;
+}
+
+hr {
+  color: #D7D7D7;
+  opacity: 100%;
+}
+
+recButton, header button.recButton {
+  width: 160px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+recButton i, header button.recButton i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-right: 10px;
+}
+
+.multi_avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.multi_avatar .avatar {
+  margin-left: -24px;
+  background-color: #f8f8f8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.multi_avatar__md .avatar {
+  width: 32px;
+  height: 32px;
+  margin-left: -14px;
 }
 
 hr {

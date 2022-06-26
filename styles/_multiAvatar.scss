@@ -1,0 +1,22 @@
+@import "./variables";
+
+.multi_avatar {
+  display: flex;
+  .avatar {
+    margin-left: -24px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  &__md {
+    .avatar {
+      width: 32px;
+      height: 32px;
+      margin-left: -14px;
+    }
+  }
+}
