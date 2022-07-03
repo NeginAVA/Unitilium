@@ -7,7 +7,14 @@ main {
             font-weight  : 700;
             line-height  : 62px;
             margin-bottom: 24px;
-        }
+            @media screen and (max-width:992px) {
+                font-size    : 32px;
+                font-weight  : 900;
+                line-height  : 40px;
+           
+             }
+        }   
+        
     }
 
     .comment-sign {
@@ -31,11 +38,31 @@ main {
         color           : $white;
         padding         : 40px 120px;
         margin-bottom   : 40px;
-
+        @media screen and (max-width:1200px) {
+            padding: 24px ;
+       
+         }
+        @media screen and (max-width:992px) {
+            flex-direction: column;
+       
+         }
+        @media screen and (max-width:768px) {
+            flex-direction: column;
+           justify-content: flex-start;
+           align-items: unset;
+       
+         }
         .banner-text {
             font-size  : 24px;
             line-height: 30px;
             font-weight: 700;
+
+            @media screen and (max-width:1200px) {
+                font-size  : 20px;
+                line-height: 30px;
+                font-weight: 500;
+                margin-bottom: 20px;
+             }
         }
 
         .banner-logo {
@@ -52,7 +79,13 @@ main {
         height          : 165px;
         padding         : 48px 10px 48px 48px;
         position        : relative;
-
+        @media screen and (max-width:1200px) {
+            width: auto;
+            height: auto;
+         }
+        @media screen and (max-width:992px) {
+          display: none;
+         }
 
         .text {
             font-weight  : 500;
@@ -71,12 +104,21 @@ main {
     .service-intro {
         padding: 30px 120px;
         margin : 60px 0;
-
+        @media screen and (max-width:1200px) {
+            padding: 24px ;
+       
+         }
 
         .service-intro-subtitle {
             font-size  : 24px;
             font-weight: 600;
             line-height: 28px;
+            @media screen and (max-width:1200px) {
+                font-size  : 20px;
+                font-weight: 600;
+                line-height: 28px;
+           
+             }
         }
 
 
@@ -90,7 +132,16 @@ main {
                 @include flexCenter(column);
                 position: relative;
                 padding : 30px;
-
+                @media screen and (max-width:1200px) {
+                   width: auto;
+                   padding : 10px;
+               
+                }
+                @media screen and (max-width:992px) {
+                   height: auto;
+                   padding : 40px 10px;
+               
+                }
                 .head-number {
                     position: absolute;
                     top     : 5px;
@@ -110,18 +161,32 @@ main {
                     .feature-text {
                         text-align: center;
                         margin-top: 12px;
+                        min-height: 100px;
 
                         .title {
                             margin-bottom: 40px;
                             font-weight  : 800;
                             font-size    : 32px;
                             line-height  : 40px;
+                            @media screen and (max-width:768px) {
+                                margin-bottom: 14px;
+                                font-weight  : 900;
+                                font-size    : 28px;
+                                line-height  : 30px;
+                            
+                             }
                         }
 
                         .text {
                             font-weight: 700;
                             font-size  : 16px;
                             line-height: 20px;
+                            @media screen and (max-width:768px) {
+                                font-weight: 500;
+                                font-size  : 14px;
+                                
+                            }
+
                         }
                     }
                 }
