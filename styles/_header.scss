@@ -5,7 +5,14 @@ header {
     padding         : 24px 120px;
     background-color: #52c3ff;
     color           : $white;
-
+    @media screen and (max-width:1200px) {
+       padding: 24px ;
+       position: relative;
+    }
+    @media screen and (max-width:468px) {
+       padding: 24px 8px ;
+       position: relative;
+    }
     button.recButton {
         @extend recButton;
         color           : $primaryBlue;
@@ -25,8 +32,8 @@ header {
             text-decoration: none;
 
             .logo {
-                width     : 80px;
-                height    : 32px;
+                width     : 78px;
+                height    : 30px;
                 overflow  : visible;
                 object-fit: contain;
             }
@@ -40,19 +47,30 @@ header {
                 list-style    : none;
                 letter-spacing: normal;
                 text-align    : left;
-                color         : $white
+                color         : $white;
+                @media screen and (max-width:992px) {
+                  display: none;
+                 }
             }
         }
 
         .right-nav {
             @include flexCenter(row);
-
+            @media screen and (max-width:768px) {
+               flex-direction: column-reverse;
+               align-items: flex-end;
+               }
             .navbar-nav {
                 @include flexBetween;
                 flex-direction: row;
                 margin        : 0 16px;
                 color         : $white;
-
+                @media screen and (max-width:768px) {
+               position: absolute;
+               bottom: -40px;
+               left: -10px;
+               margin-right: 8px;
+                    }
                 .nav-item {
                     font-size   : 18px;
                     font-weight : 500;
@@ -87,14 +105,24 @@ header {
                 font-weight  : 700;
                 line-height  : 62px;
                 margin-bottom: 20px;
-
+                @media screen and (max-width:1200px) {
+                    font-size    : 40px;
+                    line-height: 50px;
+                 }
+                @media screen and (max-width:992px) {
+                    font-size    : 32px;
+                    line-height: 40px;
+                 }
             }
 
             .head-title-underline {
                 width     : 480px;
                 height    : 34px;
                 object-fit: contain;
-
+                @media screen and (max-width:768px) {
+                    width     : 320px;
+            
+                 }
             }
         }
 
@@ -105,6 +133,11 @@ header {
                 font-size  : 24px;
                 font-weight: 600;
                 line-height: 28px;
+                @media screen and (max-width:992px) {
+                    font-size    : 20px;
+                    line-height: 28px;
+                 }
+               
             }
         }
 
@@ -116,6 +149,10 @@ header {
             height    : 400px;
             object-fit: contain;
             overflow  : hidden;
+            @media screen and (max-width:992px) {
+            height: auto;
+        
+             }
         }
     }
 
@@ -141,6 +178,9 @@ header {
         bottom  : -24px;
         left    : 30%;
     }
-}
 
+
+     
+
+}
 // responsive
