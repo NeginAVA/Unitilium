@@ -29,7 +29,7 @@ hr {
 
 recButton {
     width        : 160px;
-    height       : 48px;
+    height       : 45px;
     border-radius: 8px;
     border       : none;
     font-size    : 18px;
@@ -41,4 +41,10 @@ recButton {
         @include flexCenter(row);
         margin-right: 10px;
     }
+}
+.reverse-flex{
+    @media screen and (max-width:992px) {
+       flex-direction: column-reverse;
+    
+         }
 }
