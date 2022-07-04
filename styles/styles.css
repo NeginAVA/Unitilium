@@ -1109,7 +1109,7 @@ main .section-titles h2 {
 main .comment-sign {
   background-color: #282828;
   position: absolute;
-  bottom: 80%;
+  bottom: 85%;
   left: 5%;
   border-radius: 50%;
   height: 58px;
@@ -1180,11 +1180,6 @@ main .comment {
     height: auto;
   }
 }
-@media screen and (max-width: 992px) {
-  main .comment {
-    display: none;
-  }
-}
 main .comment .text {
   font-weight: 500;
   font-size: 18px;
@@ -1203,6 +1198,11 @@ main .service-intro {
 @media screen and (max-width: 1200px) {
   main .service-intro {
     padding: 24px;
+  }
+}
+@media screen and (max-width: 992px) {
+  main .service-intro .comment {
+    display: none;
   }
 }
 main .service-intro .service-intro-subtitle {
@@ -1294,6 +1294,11 @@ main .service-intro .features .feature-box .details .feature-text .text {
 main .testimonials {
   padding: 30px 120px;
   margin: 60px 0;
+}
+@media screen and (max-width: 1200px) {
+  main .testimonials {
+    padding: 30px;
+  }
 }
 main .testimonials .testimonials-slider {
   margin-top: 60px;
