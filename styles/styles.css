@@ -1128,8 +1128,7 @@ main .present-banner {
   justify-content: space-between;
   background-color: #282828;
   color: #ffffff;
-  padding: 40px 120px;
-  margin-bottom: 40px;
+  padding: 50px 120px;
 }
 @media screen and (max-width: 1200px) {
   main .present-banner {
@@ -1297,7 +1296,7 @@ main .testimonials {
 }
 @media screen and (max-width: 1200px) {
   main .testimonials {
-    padding: 30px;
+    padding: 24px;
   }
 }
 main .testimonials .testimonials-slider {
@@ -1314,6 +1313,17 @@ main .statistics-banner {
   color: #D9D9D9;
   padding: 78px 120px;
 }
+@media screen and (max-width: 1200px) {
+  main .statistics-banner {
+    padding: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .statistics-banner {
+    flex-direction: column;
+    height: auto;
+  }
+}
 main .statistics-banner .statistics-title {
   font-weight: 500;
   font-size: 18px;
@@ -1321,11 +1331,23 @@ main .statistics-banner .statistics-title {
   width: 160px;
   margin-right: 20px;
 }
+@media screen and (max-width: 768px) {
+  main .statistics-banner .statistics-title {
+    width: auto;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+}
 main .statistics-banner .middle-line {
   width: 1px;
   height: 228px;
   background-color: #ffffff;
   margin: 0px 20px;
+}
+@media screen and (max-width: 768px) {
+  main .statistics-banner .middle-line {
+    display: none;
+  }
 }
 main .statistics-banner .datas {
   display: flex;
@@ -1334,8 +1356,26 @@ main .statistics-banner .datas {
   flex-direction: row;
   width: -webkit-fill-available;
 }
+@media screen and (max-width: 680px) {
+  main .statistics-banner .datas {
+    flex-direction: column;
+  }
+}
 main .statistics-banner .datas .statistics {
   padding: 0 50px;
+}
+@media screen and (max-width: 992px) {
+  main .statistics-banner .datas .statistics {
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main .statistics-banner .datas .statistics {
+    margin-bottom: 60px;
+  }
+  main .statistics-banner .datas .statistics.last {
+    margin-bottom: 0px;
+  }
 }
 main .statistics-banner .datas .statistics .title {
   margin-bottom: 10px;
