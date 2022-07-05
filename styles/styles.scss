@@ -11,12 +11,12 @@
 @import "./footer";
 @import "./panel";
 
-$small: 768px;
+$small : 768px;
 $medium: 992px;
-$large: 1200px;
+$large : 1200px;
 
 div {
-  margin: 0;
+  margin : 0;
   padding: 0;
 }
 
@@ -26,7 +26,7 @@ h3,
 h4,
 h5,
 p {
-  margin: 0;
+  margin : 0;
   padding: 0;
 }
 
@@ -35,32 +35,32 @@ img {
 }
 
 html {
-  font-size: 14px;
+  font-size      : 14px;
   scroll-behavior: smooth;
 }
 
 i {
-  display: inline-block;
+  display  : inline-block;
   font-size: 1em;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
-  list-style: none;
+  color          : inherit;
+  list-style     : none;
 }
 
 ul,
 li {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin    : 0;
+  padding   : 0;
 }
 
 body {
-  margin: 0;
+  margin     : 0;
   font-family: Mulish, sans-serif, serif;
-  font-style: normal;
+  font-style : normal;
 }
 
 // button {
@@ -70,33 +70,50 @@ body {
 html {
   height: 100%;
 }
-.owl-item{
-@media screen and (max-width:768px) {
- margin-right: 40px !important;
 
+.owl-item {
+  @media screen and (max-width:768px) {
+    margin-right: 40px !important;
+
+  }
 }
+
+.login-page {
+  main {
+    @media screen and (max-width:992px) {
+      display: none;
+    }
+  }
+
+  footer {
+    @media screen and (max-width:992px) {
+      display: none;
+    }
+
+  }
 }
+
 .panel {
   $space-menu: 200px;
-  height: 100%;
+  height     : 100%;
 
   .menu-left {
-    height: 100%;
-    width: $space-menu;
+    height          : 100%;
+    width           : $space-menu;
     background-color: $secondaryBlack;
-    padding: 38px 18px;
-    position: fixed;
-    left: 0;
-    top: 0;
+    padding         : 38px 18px;
+    position        : fixed;
+    left            : 0;
+    top             : 0;
 
     .nav {
       display: block;
 
       ul {
         li {
-          margin: 20px 0;
+          margin       : 20px 0;
           border-radius: 4px;
-          padding: 10px;
+          padding      : 10px;
 
           &:first-child {
             margin-top: 0;
@@ -107,14 +124,14 @@ html {
           }
 
           a {
-            display: block;
-            font-size: 14px;
-            color: #fff;
+            display       : block;
+            font-size     : 14px;
+            color         : #fff;
             text-transform: capitalize;
-            font-weight: 700;
+            font-weight   : 700;
 
             i {
-              font-size: 24px;
+              font-size    : 24px;
               padding-right: 18px;
             }
           }
@@ -133,18 +150,18 @@ html {
 }
 
 .avatar {
-  border-radius: 50%;
-  width: 56px;
-  height: 56px;
-  overflow: hidden;
+  border-radius   : 50%;
+  width           : 56px;
+  height          : 56px;
+  overflow        : hidden;
   background-color: inherit;
 
   a {
     display: block;
 
     img {
-      width: 100%;
-      height: 100%;
+      width     : 100%;
+      height    : 100%;
       object-fit: cover;
     }
   }
@@ -166,31 +183,31 @@ html {
 
   &.selected {
     background-color: $skyBlue;
-    color: $white;
+    color           : $white;
   }
 }
 
 .documents-box {
-  position: relative;
+  position  : relative;
   transition: ease-in-out 0.34s;
 
   &:hover {
     border-color: $skyBlue !important;
-    color: $skyBlue !important;
+    color       : $skyBlue !important;
   }
 
   .documents-box-info-icon {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 24px;
-    height: 24px;
+    position     : absolute;
+    top          : -10px;
+    right        : -10px;
+    width        : 24px;
+    height       : 24px;
     border-radius: 50%;
   }
 }
 
 .eticket {
-  width: 60px;
+  width : 60px;
   height: 22px;
 }
 
