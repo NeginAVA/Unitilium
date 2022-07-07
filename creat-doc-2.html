@@ -11,8 +11,8 @@
     <link href="./styles/styles.css" rel="stylesheet" />
 </head>
 
-<body class="panel">
-    <div class="menu-left">
+<body>
+    <!-- <div class="menu-left">
         <div class="nav">
             <ul>
                 <li>
@@ -65,11 +65,11 @@
                 </li>
             </ul>
         </div>
-    </div>
+    </div> -->
     <div class="content">
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <div class="col-xl-4 col-xxl-3 activity-bar bgcolor__11 px-0 py-5">
+                <!-- <div class="col-xl-4 col-xxl-3 activity-bar bgcolor__11 px-0 py-5">
                     <div class="d-flex justify-content-between px-5">
                         <div class="col-auto">
                             <span class="typography__h6">Activies</span>
@@ -170,14 +170,19 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="col-xl-8 col-xxl-9 h-100 overflow-auto">
-                    <div class="container-fluid py-5 px-4">
+                <div class="col-lg-8 h-100 overflow-auto">
+                    <div class="container-fluid py-5 px-md-4 px-2">
                         <div class="col-12 mb-2">
                             <div class="row">
                                 <div class="col-auto">
-                                    <h3 class="typography_body">Unitilium</h3>
+                                    <h3 class="typography_body panel-head-title d-lg-block d-none">Unitilium</h3>
+                                    <div class="me-3 d-lg-none d-block">
+                                        <button class="btn bgcolor__1 p-3 typography color__1">
+                                            <img src="./images/Union (2).svg" alt="notification" />
+                                        </button>
+                                    </div>
                                 </div>
                                 <div class="profile-details col-auto ms-auto d-flex align-items-center">
                                     <div class="me-3">
@@ -207,9 +212,9 @@
                         <div class="col-12 my-5">
                             <div class="d-flex flex-wrap align-items-center">
                                 <div class="typography typography__body  weight__bold">
-                                    <span>Choose the company</span>
+                                    <span>name the document</span>
                                 </div>
-                                <div class="col ms-4 ">
+                                <div class="col-md col-12 ms-md-4 ms-0 mt-md-0 mt-4 ">
                                     <div class="bgcolor__15 p-3 radius__2 p-1 d-flex align-items-center ">
                                         <div class="col-auto ">
                                             <div class="d-flex align-items-center">
@@ -243,7 +248,7 @@
                                 <div class="row align-items-center bgcolor__3 py-2 color__3 px-4 my-4">
                                     <div class="col-auto d-flex align-items-center ">
                                         <div class=" d-flex align-items-center me-3">
-                                            <div class="avatar mini">
+                                            <div class="avatar mini d-md-block d-none">
                                                 <a href="#">
                                                     <img src="./images/avatar.svg" alt="avatar" />
                                                 </a>
@@ -290,9 +295,10 @@
                             </div>
                             <div class="col-12">
                                 <div class="row align-items-center bgcolor__3 py-2 color__3 px-4 my-4">
+
                                     <div class="col-auto d-flex align-items-center ">
                                         <div class=" d-flex align-items-center me-3">
-                                            <div class="avatar mini">
+                                            <div class="avatar mini d-md-block d-none">
                                                 <a href="#">
                                                     <img src="./images/avatar.svg" alt="avatar" />
                                                 </a>
@@ -318,32 +324,32 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 mt-3">
-
-                                <button
-                                    class="bgcolor__0 border-0 typography color__2 typography__caption weight__bold">
-                                    <i class="icon icon me-2 ">
-                                        <img src="./images/add.svg" alt="">
-                                    </i>
-                                    Add another editor
-                                </button>
-
-                            </div>
                         </div>
+                        <div class="col-12 mt-3">
 
-
-
-                        <div class="col-xl-5 col-md-7 ms-auto mt-5">
-                            <button
-                                class="large-btn w-100 bgcolor__1 typography typography__body color__1 border-0 radius__2">
-                                Continue
-                                <i class="icon icon-arrow-right"></i>
+                            <button class="bgcolor__0 border-0 typography color__2 typography__caption weight__bold">
+                                <i class="icon icon me-2 ">
+                                    <img src="./images/add.svg" alt="">
+                                </i>
+                                Add another editor
                             </button>
+
                         </div>
+                    </div>
+
+
+
+                    <div class="col-xl-5 col-md-7 ms-auto my-5">
+                        <button
+                            class="large-btn w-100 bgcolor__1 typography typography__body color__1 border-0 radius__2">
+                            Continue
+                            <i class="icon icon-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
