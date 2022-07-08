@@ -255,4 +255,42 @@ html {
   height: 22px;
 }
 
+.financial-plans-box {
+  position: relative;
+  height  : 320px;
+
+  padding: 60px 20px 40px 20px;
+
+  @media screen and (max-width:768px) {
+    width: 310px
+  }
+
+  &.special {
+    height: auto;
+
+    .image {
+      position: absolute;
+      height  : 106px;
+      top     : -105px;
+      left    : 0px;
+
+      img {
+        width: 100%
+      }
+    }
+  }
+
+  .image {
+    position: absolute;
+
+    height: 106px;
+    top   : -80px;
+    left  : -20px;
+
+    img {
+      width: 100%
+    }
+  }
+}
+
 // responsive
