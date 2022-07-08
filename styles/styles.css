@@ -2647,8 +2647,25 @@ recButton i, header button.recButton i {
   height: 100%;
 }
 
+@media screen and (max-width: 992px) {
+  .content .activity-bar.bg-lg-change {
+    background-color: inherit !important;
+  }
+}
+
+.content .activity-bar a.activity-bg:hover {
+  background-color: #9CE1FF !important;
+  color: unset;
+}
+
 .content .activity-bar .activity-item {
   border-bottom: 1px solid #D7D7D7;
+}
+
+@media screen and (max-width: 992px) {
+  .content .activity-bar .activity-item.last {
+    border-bottom: none;
+  }
 }
 
 .content .activity-bar .activity-item .single-activity p {

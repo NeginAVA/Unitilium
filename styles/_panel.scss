@@ -103,8 +103,33 @@
   .activity-bar {
     height: 100%;
 
+    &.bg-lg-change {
+      @media screen and (max-width:992px) {
+        background-color: inherit !important;
+
+      }
+    }
+
+    a {
+      &.activity-bg {
+
+
+        &:hover {
+          background-color: #9CE1FF !important;
+          color           : unset
+        }
+      }
+    }
+
     .activity-item {
       border-bottom: 1px solid $fosil;
+
+      &.last {
+        @media screen and (max-width:992px) {
+          border-bottom: none;
+
+        }
+      }
 
       .single-activity {
         p {
