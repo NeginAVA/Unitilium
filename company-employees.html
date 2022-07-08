@@ -11,10 +11,16 @@
     <link href="./styles/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <!-- <div class="menu-left">
+<body class="panel">
+    <div class="menu-left">
+
         <div class="nav">
+
             <ul>
+                <li class="mb-3">
+                    <button id="close-menu-left" type="button" class="btn-close btn-close-white"
+                        aria-label="Close"></button>
+                </li>
                 <li>
                     <a href="#">
                         <img src="./images/suitcase.svg" alt="company" />
@@ -65,7 +71,35 @@
                 </li>
             </ul>
         </div>
-    </div> -->
+    </div>
+    <div class="menu-top">
+        <div class="container-fluid py-5 px-md-4">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <button id="menu-left" class="btn bgcolor__1 p-2 typography color__1">
+                        <img src="./images/ham-menu.svg" alt="menu">
+                    </button>
+                </div>
+                <div class="profile-details col-auto ms-auto d-flex align-items-center">
+                    <div class="me-3">
+                        <button class="btn bgcolor__1 p-3 typography color__1">
+                            <img src="./images/Union (2).svg" alt="notification" />
+                        </button>
+                    </div>
+                    <div class="me-3">
+                        <button class="btn bgcolor__1 p-3 typography color__1">
+                            <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                        </button>
+                    </div>
+                    <div class="avatar">
+                        <a href="#">
+                            <img src="./images/avatar.svg" alt="avatar" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="content">
         <div class="container-fluid h-100">
             <div class="row h-100">
@@ -139,10 +173,8 @@
                     </div>
 
                 </div>
-
-
                 <div class="col-lg-8 h-100 overflow-auto">
-                    <div class="container-fluid py-5 px-4 px-0">
+                    <div class="container-fluid py-5 px-md-4 px-0">
                         <div class="col-12 mb-2">
                             <div class="row">
                                 <div class="col-auto">
@@ -504,6 +536,16 @@
         </div>
     </div>
     </div>
+
+
+    <script>
+        document.getElementById("menu-left").addEventListener("click", function () {
+            document.body.setAttribute("attr-open", "menu")
+        })
+        document.getElementById("close-menu-left").addEventListener("click", function () {
+            document.body.removeAttribute("attr-open")
+        })
+    </script>
 </body>
 
 </html>

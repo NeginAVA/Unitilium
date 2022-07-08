@@ -295,6 +295,15 @@
         </div>
     </div>
 
+
+    <script>
+        document.getElementById("menu-left").addEventListener("click", function () {
+            document.body.setAttribute("attr-open", "menu")
+        })
+        document.getElementById("close-menu-left").addEventListener("click", function () {
+            document.body.removeAttribute("attr-open")
+        })
+    </script>
 </body>
 
 </html>
