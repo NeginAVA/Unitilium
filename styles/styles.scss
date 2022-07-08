@@ -100,7 +100,9 @@ html {
   height     : 100%;
 
 
-
+  .menu-top{
+    display: none;
+  }
   .menu-left {
     height          : 100%;
     width           : $space-menu;
@@ -256,3 +258,29 @@ html {
 }
 
 // responsive
+
+
+@media screen and (max-width: 991px) {
+  .panel {
+    .menu-top{
+      display: block;
+    }
+    &[attr-open="menu"]{
+      .menu-left {
+        right : 0
+        
+       }
+    }
+    .content{
+      padding-left: 0px;
+    }
+    .menu-left {
+      right: 100%;
+      left: unset;
+      width: 100%;
+      z-index: 2;
+      transition: right 0.43s ease;
+     }
+  }
+  
+}
