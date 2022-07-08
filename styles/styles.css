@@ -2711,6 +2711,62 @@ recButton i, header button.recButton i {
   border-right: 1px solid #e5e5e5;
 }
 
+.chat__list {
+  margin-bottom: 32px;
+}
+
+.chat__list[attr-user=owner] {
+  text-align: end;
+}
+
+.chat__list[attr-user=owner] .avatar {
+  display: block;
+}
+
+.chat__list[attr-user=owner] .text:before {
+  right: unset;
+  left: 100%;
+  border-left: 10px solid #fff;
+  border-right: 10px solid transparent;
+}
+
+.chat__list__box {
+  min-width: 30%;
+  max-width: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+.chat__list__box .avatar {
+  display: none;
+  width: 32px;
+  height: 32px;
+}
+
+.chat__list__box .text {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fff;
+  filter: drop-shadow(0px 0px 20px rgba(132, 132, 132, 0.2));
+  position: relative;
+  text-align: start;
+}
+
+.chat__list__box .text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  display: table;
+  margin: auto;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #fff;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+/*# sourceMappingURL=styles.css.map */
 div {
   margin: 0;
   padding: 0;
