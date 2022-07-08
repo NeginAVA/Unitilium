@@ -217,11 +217,27 @@ html {
 
 .documents-box {
   position  : relative;
-  transition: ease-in-out 0.34s;
+  transition: ease-in-out 0.43s;
+  cursor    : pointer;
+
+  h4 {
+    transition: ease-in-out 0.43s;
+  }
+
+  p {
+    transition: ease-in-out 0.43s;
+  }
 
   &:hover {
     border-color: $skyBlue !important;
-    color       : $skyBlue !important;
+
+    h4 {
+      color: $skyBlue !important;
+    }
+
+    p {
+      color: $skyBlue !important;
+    }
   }
 
   .documents-box-info-icon {

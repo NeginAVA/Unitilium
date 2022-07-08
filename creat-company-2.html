@@ -9,41 +9,6 @@
     <link href="./styles/bootstrap.css" rel="stylesheet" />
     <link href="./styles/fonts.css" rel="stylesheet" />
     <link href="./styles/styles.css" rel="stylesheet" />
-
-    <script src="./js/tinymce.min.js" referrerpolicy="origin"></script>
-
-    <script>
-        tinymce.init({
-            selector: "#mytextarea",
-            menubar: false,
-            plugins: "link image table",
-            contextmenu: "link image table",
-            toolbar: [
-                { name: "history", items: ["undo", "redo"] },
-                { name: "styles", items: ["styles"] },
-                { name: "formatting", items: ["bold", "italic"] },
-                { name: "alignment", items: ["alignleft", "aligncenter", "alignright", "alignjustify"] },
-                { name: "indentation", items: ["outdent", "indent"] },
-                { name: "indentation", items: ["link", "image"] },
-            ],
-        });
-    </script>
-    <!-- <script>
-        tinymce.init({
-            selector: "#mytextarea",
-            menubar: false,
-            plugins: "link image table",
-            contextmenu: "link image table",
-            toolbar: [
-                { name: "history", items: ["undo", "redo"] },
-                { name: "styles", items: ["styles"] },
-                { name: "formatting", items: ["bold", "italic"] },
-                { name: "alignment", items: ["alignleft", "aligncenter", "alignright", "alignjustify"] },
-                { name: "indentation", items: ["outdent", "indent"] },
-                { name: "indentation", items: ["link", "image"] },
-            ],
-        });
-    </script> -->
 </head>
 
 <body>
@@ -136,7 +101,7 @@
                     <div class="bgcolor__11  mx-lg-0 mx-md-5 mx-3 radius__2 overflow-hidden">
 
 
-                        <div class=" pt-3 position-relative activity-element">
+                        <div class=" pt-3 position-relative activity-element selected">
                             <div class="col-12 activity-item last ps-5 ">
                                 <div class="row me-0 align-items-end">
                                     <div class="col single-activity">
@@ -193,100 +158,103 @@
                     </div>
 
                 </div>
-                <div class="col-lg-8  h-100 overflow-auto">
+
+                <div class="col-lg-8 h-100 overflow-auto">
                     <div class="container-fluid py-5 px-md-4 px-0">
                         <div class="col-12 mb-2">
                             <div class="row">
-                                <div class="col-auto">
-                                    <h3 class="typography_body panel-head-title d-lg-block d-none">Unitilium</h3>
-                                    <div class="me-3 d-lg-none d-block">
-                                        <button class="btn bgcolor__1 p-3 typography color__1">
-                                            <img src="./images/Union (2).svg" alt="notification" />
-                                        </button>
+                            </div>
+                            <div class="profile-details col-auto ms-auto d-flex align-items-center">
+                                <div class="me-3">
+                                    <button class="btn bgcolor__1 p-3 typography color__1">
+                                        <img src="./images/Union (2).svg" alt="notification" />
+                                    </button>
+                                </div>
+                                <div class="me-3">
+                                    <button class="btn bgcolor__1 p-3 typography color__1">
+                                        <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                                    </button>
+                                </div>
+                                <div class="avatar">
+                                    <a href="#">
+                                        <img src="./images/avatar.svg" alt="avatar" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-5 ">
+                        <span class="typography  typography__body weight__500">Onboarding process</span>
+                        <div class="progressbar my-2">
+                            <span style="width: 30% ; height:10px"></span>
+                        </div>
+                    </div>
+                    <div class="col-12 my-3">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-4 col-md-6 mb-3">
+                                <div class="form-input">
+                                    <div class="input">
+                                        <div class="input--icon input--icon__left">
+                                            <i class="icon icon-date">icon</i>
+                                        </div>
+                                        <input placeholder="Add your employe’s Email" />
                                     </div>
                                 </div>
-                                <div class="profile-details col-auto ms-auto d-flex align-items-center">
-                                    <div class="me-3">
-                                        <button class="btn bgcolor__1 p-3 typography color__1">
-                                            <img src="./images/Union (2).svg" alt="notification" />
-                                        </button>
+                            </div>
+                            <div class="col-xl-4 col-md-6 mb-3">
+                                <div class="form-input">
+                                    <div class="input">
+                                        <div class="input--icon input--icon__left">
+                                            <i class="icon icon-date">icon</i>
+                                        </div>
+                                        <input placeholder="Add your employe’s Name" />
                                     </div>
-                                    <div class="me-3">
-                                        <button class="btn bgcolor__1 p-3 typography color__1">
-                                            <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
-                                        </button>
-                                    </div>
-                                    <div class="avatar">
-                                        <a href="#">
-                                            <img src="./images/avatar.svg" alt="avatar" />
-                                        </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-6 mb-3">
+                                <div class="form-input">
+                                    <div class="input">
+                                        <div class="input--icon input--icon__left">
+                                            <i class="icon icon-date">icon</i>
+                                        </div>
+                                        <input placeholder="Add your employe’s Rule" />
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 my-5">
-                            <div class="row ">
-                                <div class="col-lg-3">
-                                    <span class="typography typography__body  weight__bold my-2">Marketing plan</span>
-                                </div>
-                                <div class="col-lg-9 ms-auto mt-lg-0 mt-3">
-                                    <div class="row ms-auto flex-md-row flex-column">
+                    </div>
+                    <div class="col mt-4 d-flex align-items-center">
+                        <div class="form-input my-2 d-flex align-items-center w-auto me-4">
+                            <label class="radio checked">
+                                <input type="radio" name="" value="" checked />
+                                <span></span>
+                            </label>
+                            <span class="typography typography__caption mx-3 ">Full Access</span>
+                        </div>
+                        <div class="form-input my-2 d-flex align-items-center w-auto me-4">
+                            <label class="radio ">
+                                <input type="radio" name="" value="" />
+                                <span></span>
+                            </label>
+                            <span class="typography typography__caption mx-3 ">Emplyee Access</span>
+                        </div>
+                    </div>
 
-                                        <div class="col-auto d-flex align-items-center ms-lg-auto ms-0 my-2">
-                                            <div>
-                                                <span
-                                                    class="typography typography__caption  weight__bold ">Editors</span>
-                                            </div>
-                                            <div class="multi_avatar multi_avatar__md mx-4">
-                                                <div class="avatar">
-                                                    <img src="../images/avatar.svg" alt="avatar" />
-                                                </div>
-                                                <div class="avatar">
-                                                    <img src="../images/avatar.svg" alt="avatar" />
-                                                </div>
-                                                <div class="avatar">
-                                                    <img src="../images/avatar.svg" alt="avatar" />
-                                                </div>
-                                                <div class="avatar">
-                                                    <img src="../images/avatar.svg" alt="avatar" />
-                                                </div>
-                                                <div class="avatar">
-                                                    <span><i class="icon icon-plus">plus</i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-auto d-flex align-items-center  ms-lg-auto ms-0 my-2">
-                                            <div>
-                                                <span
-                                                    class="typography typography__caption  weight__bold ">Editors</span>
-                                            </div>
-                                            <div class="multi_avatar multi_avatar__md mx-4">
-                                                <div class="avatar">
-                                                    <img src="../images/avatar.svg" alt="avatar" />
-                                                </div>
-                                                <div class="avatar">
-                                                    <img src="../images/avatar.svg" alt="avatar" />
-                                                </div>
-                                                <div class="avatar">
-                                                    <img src="../images/avatar.svg" alt="avatar" />
-                                                </div>
-                                                <div class="avatar">
-                                                    <img src="../images/avatar.svg" alt="avatar" />
-                                                </div>
-                                                <div class="avatar">
-                                                    <span><i class="icon icon-plus">plus</i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-12 my-5 ms-auto">
+                        <div class="row">
+                            <div class="col-md-4 ms-auto mb-3">
+                                <button
+                                    class="large-btn w-100 bgcolor__16 typography typography__body color__1 border-0 radius__2">
+                                    Add another
+                                    <i class="icon icon-arrow-right"></i>
+                                </button>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="text-editor">
-                                <form method="post">
-                                    <textarea id="mytextarea">Hello, World!</textarea>
-                                </form>
+                            <div class="col-md-4 mb-3">
+                                <button
+                                    class="large-btn w-100 bgcolor__1 typography typography__body color__1 border-0 radius__2">
+                                    Add and Continue
+                                    <i class="icon icon-arrow-right"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -294,7 +262,8 @@
             </div>
         </div>
     </div>
-
+    </div>
+    </div>
 </body>
 
 </html>
