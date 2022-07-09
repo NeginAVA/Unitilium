@@ -23,6 +23,11 @@
   border-radius: 4px;
   padding      : 10px;
   height       : 42px;
+  transition   : all ease-in-out 0.43s;
+
+  &:hover {
+    background-color: #5d3dff
+  }
 }
 
 .panel .menu-left .nav ul li:first-child {
@@ -39,6 +44,9 @@
   color         : #fff;
   text-transform: capitalize;
   font-weight   : 700;
+
+
+
 }
 
 .panel .menu-left .nav ul li a img {
@@ -163,48 +171,55 @@
 }
 
 .chat {
-  &__list{
+  &__list {
     margin-bottom: 32px;
-    &[attr-user="owner"]{
+
+    &[attr-user="owner"] {
       text-align: end;
-      .avatar{
+
+      .avatar {
         display: block;
       }
-      .text:before{
-        right: unset;
-        left: 100%;
-        border-left: 10px solid #fff;
+
+      .text:before {
+        right       : unset;
+        left        : 100%;
+        border-left : 10px solid #fff;
         border-right: 10px solid transparent;
       }
     }
-    &__box{
+
+    &__box {
       min-width: 30%;
       max-width: 50%;
-      position: relative;
-      display: inline-block;
-      .avatar{
+      position : relative;
+      display  : inline-block;
+
+      .avatar {
         display: none;
-        width: 32px;
-        height: 32px;
+        width  : 32px;
+        height : 32px;
       }
-      .text{
-        border-radius: 8px;
-        padding: 10px;
+
+      .text {
+        border-radius   : 8px;
+        padding         : 10px;
         background-color: #fff;
-        filter: drop-shadow(0px 0px 20px rgba(132, 132, 132, 0.2));
-        position: relative;
-        text-align: start;
-        &:before{
-          content: "";
-          position: absolute;
-          top: 0;
-          right: 100%;
-          bottom: 0;
-          display: table;
-          margin: auto;
-          border-top: 10px solid transparent;
-          border-right: 10px solid #fff;
-          border-left: 10px solid transparent;
+        filter          : drop-shadow(0px 0px 20px rgba(132, 132, 132, 0.2));
+        position        : relative;
+        text-align      : start;
+
+        &:before {
+          content      : "";
+          position     : absolute;
+          top          : 0;
+          right        : 100%;
+          bottom       : 0;
+          display      : table;
+          margin       : auto;
+          border-top   : 10px solid transparent;
+          border-right : 10px solid #fff;
+          border-left  : 10px solid transparent;
           border-bottom: 10px solid transparent;
 
         }
