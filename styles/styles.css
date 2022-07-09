@@ -1468,7 +1468,7 @@ recButton i, header button.recButton i {
 }
 
 .form-input .switch-checbox input:checked~span {
-  background: #14b45c;
+  background: #52c3ff;
 }
 
 .form-input .switch-checbox input:checked~span:after {
