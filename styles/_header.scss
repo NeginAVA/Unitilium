@@ -1,20 +1,19 @@
 @import "./variables";
 
 header {
-    position        : relative;
-    padding         : 24px 120px;
-    background-color: #52c3ff;
-    color           : $white;
 
-    @media screen and (max-width:1200px) {
-        padding : 24px;
-        position: relative;
-    }
 
-    @media screen and (max-width:468px) {
-        padding : 24px 8px;
-        position: relative;
-    }
+    color: $white;
+
+    // @media screen and (max-width:1200px) {
+    //     padding: 24px;
+
+    // }
+
+    // @media screen and (max-width:468px) {
+    //     padding: 24px 8px;
+
+    // }
 
     button.recButton {
         @extend recButton;
@@ -27,7 +26,8 @@ header {
     .navbar {
         @include flexBetween;
         background-color: $primaryBlue;
-        margin-bottom   : 40px;
+        padding         : 24px 120px;
+
 
         .navbar-brand {
             display        : flex;
@@ -103,108 +103,6 @@ header {
         }
     }
 
-    .main-header {
-
-
-
-        .head-title {
-            h1.head-title-text {
-                font-size    : 56px;
-                font-weight  : 700;
-                line-height  : 62px;
-                margin-bottom: 20px;
-
-                @media screen and (max-width:1200px) {
-                    font-size  : 40px;
-                    line-height: 50px;
-                }
-
-                @media screen and (max-width:992px) {
-                    font-size  : 32px;
-                    line-height: 40px;
-                }
-
-                &.welcome {
-                    font-size  : 56px;
-                    font-weight: 700;
-                    line-height: 62px;
-                }
-            }
-
-            .head-title-underline {
-                width     : 480px;
-                height    : 34px;
-                object-fit: contain;
-
-                @media screen and (max-width:768px) {
-                    width: 320px;
-
-                }
-            }
-        }
-
-        .head-subtitle {
-            margin: 24px 0;
-
-            p.head-subtitle-text {
-                font-size  : 24px;
-                font-weight: 600;
-                line-height: 28px;
-
-                @media screen and (max-width:992px) {
-                    font-size  : 20px;
-                    line-height: 28px;
-                }
-
-            }
-        }
-
-        .head-start-btn {
-            margin: 20px 0;
-        }
-
-        .main-header-imageBox {
-            height    : 400px;
-            object-fit: contain;
-            overflow  : hidden;
-
-            @media screen and (max-width:992px) {
-                height: auto;
-
-            }
-        }
-    }
-
-    .privacy-terms-img {
-        width     : 280px;
-        height    : 80px;
-        object-fit: contain;
-    }
-
-    .signin-link {
-        margin-top: 24px;
-
-        a {
-            transition: ease-in-out 0.5s;
-
-
-        }
-    }
-
-    .signin-btn {
-        width   : 180px;
-        position: absolute;
-        bottom  : -24px;
-        left    : 30%;
-
-        @media screen and (max-width:992px) {
-
-            position     : unset;
-            margin-top   : 30px;
-            margin-bottom: 30px;
-
-        }
-    }
 
 
 
