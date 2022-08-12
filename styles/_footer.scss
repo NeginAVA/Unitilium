@@ -11,29 +11,36 @@ footer {
 
     }
 
-    .logo {
-        width        : 78px;
-        height       : 30px;
-        object-fit   : contain;
-        margin-bottom: 16px;
-    }
+    .intro {
+        @media screen and (max-width:992px) {
+            align-items: center;
 
-    .footer-text {
-        font-weight  : 400;
-        font-size    : 16px;
-        line-height  : 25px;
-        width        : 300px;
-        margin-bottom: 25px;
-    }
-
-    .social-media-links {
-        display: flex;
-
-        .link {
-            width     : 40px;
-            height    : 40px;
-            object-fit: contain;
         }
+
+        .logo {
+            width        : 78px;
+            height       : 30px;
+            object-fit   : contain;
+            margin-bottom: 16px;
+        }
+
+        .footer-text {
+            font-weight  : 400;
+            font-size    : 16px;
+            line-height  : 25px;
+            width        : 300px;
+            margin-bottom: 25px;
+        }
+
+        .social-media-links {
+            display: flex;
+
+            .link {
+                margin-right: 12px;
+                object-fit  : contain;
+            }
+        }
+
     }
 
     .quick-access-links {
@@ -41,6 +48,12 @@ footer {
         flex-wrap: wrap;
 
         justify-content: center;
+
+        @media screen and (max-width:992px) {
+            justify-content: space-between;
+            margin-top     : 20px;
+
+        }
 
         ul {
             font-size   : 16px;
