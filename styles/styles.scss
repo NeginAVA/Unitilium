@@ -132,7 +132,9 @@ html {
           }
 
           a {
-            display       : block;
+            display       : flex;
+            align-items   : center;
+            width         : 100%;
             font-size     : 14px;
             color         : #fff;
             text-transform: capitalize;
@@ -152,8 +154,21 @@ html {
     }
   }
 
+  .activity-row {
+    @media screen and (max-width:992px) {
+      height: auto !important;
+    }
+  }
+
   .content {
     padding-left: $space-menu;
+  }
+}
+
+.scene-half-blue-btn {
+  @media screen and (max-width:576px) {
+    font-size  : 14px;
+    line-height: 18px;
   }
 }
 
@@ -163,6 +178,11 @@ html {
   height          : 56px;
   overflow        : hidden;
   background-color: inherit;
+
+  @media screen and (max-width:992px) {
+    width : 42px !important;
+    height: 42px !important;
+  }
 
   a {
     display: block;
