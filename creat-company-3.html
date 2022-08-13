@@ -78,19 +78,20 @@
         <div class="container-fluid py-5 px-md-4">
             <div class="row align-items-center">
                 <div class="col-auto">
-                    <button id="menu-left" class="btn bgcolor__1 p-2 typography color__1">
-                        <img src="./images/ham-menu.svg" alt="menu">
+                    <button id="menu-left" class="btn bgcolor__1 p-2 typography typography__caption color__1"
+                        style="width: 35px;height: 35px;">
+                        <i class="icon icon-menu-white"></i>
                     </button>
                 </div>
                 <div class="profile-details col-auto ms-auto d-flex align-items-center">
                     <div class="me-3">
-                        <button class="btn bgcolor__1 p-3 typography color__1">
-                            <img src="./images/Union (2).svg" alt="notification" />
+                        <button class="btn bgcolor__1 p-3 typography typography__caption color__1">
+                            <i class="icon icon-notif"></i>
                         </button>
                     </div>
                     <div class="me-3">
-                        <button class="btn bgcolor__1 p-3 typography color__1">
-                            <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                        <button class="btn bgcolor__1 p-3 typography typography__caption color__1">
+                            <i class="icon icon-comments"></i>
                         </button>
                     </div>
                     <div class="avatar">
@@ -105,39 +106,41 @@
     <div class="content">
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <div class="col-lg-4  activity-bar bgcolor__11  px-0 py-5 bg-lg-change ">
-                    <div class="d-flex justify-content-between px-5">
+                <div class="col-lg-4  activity-bar  bgcolor__11  px-0 py-lg-5 bg-lg-change ">
+                    <div class="col-12 ms-2 mb-4 d-lg-none d-block typography typography__body">
+                        <i class="icon icon-home-black me-1"></i>Company
+                    </div>
+                    <div class="d-flex justify-content-between px-lg-5 px-2">
                         <div class="col-auto">
-                            <span class="typography__h6">Previus documents</span>
+                            <span class="typography__h6">Company List</span>
                         </div>
                         <div class="col-auto ms-auto d-flex align-items-center">
+
                             <div class="me-2 d-lg-block d-none">
-                                <img src="./images/filter.svg" alt="" />
-                            </div>
-                            <div class="me-2">
-                                <img src="./images/search.svg" alt="" />
+                                <i class="icon icon-filter-black typography typography__h6 me-2"></i>
+                                <i class="icon icon-search-black typography typography__h6"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="my-3">
-                        <hr class="d-lg-block d-none" />
+                    <div class="mt-3">
+                        <hr class="d-lg-block d-none m-0" />
                     </div>
                     <div class="d-flex justify-content-center">
-                        <div class="col-10 my-3">
+                        <div class="col-md-10 col-12 my-3 px-3">
                             <button
-                                class="large-btn w-100 bgcolor__1 typography typography__body color__1 border-0 radius__2">
+                                class="d-flex align-items-center justify-content-center large-btn w-100 bgcolor__1 typography typography__body color__1 border-0 radius__2">
                                 Lets make a document
-                                <i class="icon icon-arrow-right"></i>
+                                <i class="icon icon-arrow-white ms-3"></i>
                             </button>
                         </div>
                     </div>
-                    <div class="my-3">
-                        <hr class="d-lg-block d-none" />
-                    </div>
-                    <div class="bgcolor__11  mx-lg-0 mx-md-5 mx-3 radius__2 overflow-hidden">
+                    <div class="activities-container bgcolor__11  mx-lg-0 mx-md-5 mx-3 radius__2 ">
 
 
-                        <div class=" pt-3 position-relative activity-element selected">
+                        <div class=" pt-3 position-relative activity-element selected"
+                            style="background:inherit;transition: all ease-in-out 0.3s;"
+                            onmouseover="this.style.background='#9CE1FF'; this.style.cursor='pointer'"
+                            onmouseout="this.style.background='inherit';">
                             <div class="col-12 activity-item last ps-5 ">
                                 <div class="row me-0 align-items-end">
                                     <div class="col single-activity">
@@ -147,23 +150,27 @@
                                             <span class="dot d-lg-block d-none"></span>
                                             <span>Marketing plan</span>
                                         </p>
-                                        <p class="typography__overline">Created by <strong>Mohsen</strong></p>
+                                        <p class="typography__overline">open documents <span
+                                                class="doc-num bgcolor__18 p-1 ms-1">25</span></p>
                                     </div>
                                     <div class="col-auto activity-icon d-lg-block d-none text-center p-0 ">
                                         <div class="py-3">
-                                            <div class="typography__subtitle bgcolor__18 py-1">
-                                                pages
+                                            <div class="typography__caption bgcolor__18 py-1">
+                                                Members
                                             </div>
-                                            <div class="typography__subtitle  pt-3">
+                                            <div class=" typography__caption  pt-3">
                                                 25
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#" class="position-absolute  h-100 w-100 top-0 left-0 "></a>
+                            <a href="#" class="position-absolute h-100 w-100 top-0 left-0 "></a>
                         </div>
-                        <div class=" pt-3 position-relative activity-element">
+                        <div class=" pt-3 position-relative activity-element "
+                            style="background:inherit;transition: all ease-in-out 0.3s;"
+                            onmouseover="this.style.background='#9CE1FF'; this.style.cursor='pointer'"
+                            onmouseout="this.style.background='inherit';">
                             <div class="col-12 activity-item last ps-5 ">
                                 <div class="row me-0 align-items-end">
                                     <div class="col single-activity">
@@ -173,14 +180,15 @@
                                             <span class="dot d-lg-block d-none"></span>
                                             <span>Marketing plan</span>
                                         </p>
-                                        <p class="typography__overline">Created by <strong>Mohsen</strong></p>
+                                        <p class="typography__overline">open documents <span
+                                                class="doc-num bgcolor__18 p-1 ms-1">25</span></p>
                                     </div>
                                     <div class="col-auto activity-icon d-lg-block d-none text-center p-0 ">
                                         <div class="py-3">
-                                            <div class="typography__subtitle bgcolor__18 py-1">
-                                                pages
+                                            <div class="typography__caption bgcolor__18 py-1">
+                                                Members
                                             </div>
-                                            <div class="typography__subtitle  pt-3">
+                                            <div class=" typography__caption  pt-3">
                                                 25
                                             </div>
                                         </div>
@@ -191,8 +199,9 @@
                         </div>
 
 
-                    </div>
 
+
+                    </div>
                 </div>
 
                 <div class="col-lg-8 col-xxl-9 h-100 overflow-auto">
@@ -210,12 +219,12 @@
                                 <div class="profile-details col-auto ms-auto d-flex align-items-center">
                                     <div class="me-3">
                                         <button class="btn bgcolor__1 p-3 typography color__1">
-                                            <img src="./images/Union (2).svg" alt="notification" />
+                                            <i class="icon icon-notif"></i>
                                         </button>
                                     </div>
                                     <div class="me-3">
                                         <button class="btn bgcolor__1 p-3 typography color__1">
-                                            <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                                            <i class="icon icon-comments"></i>
                                         </button>
                                     </div>
                                     <div class="avatar">
@@ -326,19 +335,19 @@
                                             <div class="bgcolor__15 p-3 radius__2 p-1 d-flex align-items-center ">
                                                 <div class="col-auto ">
                                                     <div class="d-flex align-items-center">
-                                                        <div
-                                                            class="icon icon typography typography__subtitle color__10 ">
-                                                            icon
-                                                        </div>
+                                                        <i class="icon icon-guide typography typography__subtitle ">
+
+                                                        </i>
                                                         <div class="typography typography__body ms-5 weight__500">
                                                             <span>Document name</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-auto ms-auto">
-                                                    <div class="icon icon typography typography__caption color__2 ">
-                                                        icon
-                                                    </div>
+                                                    <i
+                                                        class="icon icon-exclamation-point-in-circle typography typography__body color__2 ">
+
+                                                    </i>
                                                 </div>
                                             </div>
                                         </div>
@@ -373,12 +382,12 @@
                                             <div
                                                 class="col-auto ms-auto d-flex align-items-center justify-content-center">
                                                 <button
-                                                    class="action-icon-box bgcolor__1 radius__2 border-0 d-flex align-items-center justify-content-center p-2 mx-1">
-                                                    <img src="./images/bin.svg" alt="">
+                                                    class="action-icon-box bgcolor__1 radius__2 border-0 d-flex align-items-center justify-content-center p-2 mx-1 typography color__1">
+                                                    <i class="icon icon-edit-pen"></i>
                                                 </button>
                                                 <button
-                                                    class="action-icon-box bgcolor__1 radius__2 border-0 d-flex align-items-center justify-content-center p-2 mx-1">
-                                                    <img src="./images/bin.svg" alt="">
+                                                    class="action-icon-box bgcolor__1 radius__2 border-0 d-flex align-items-center justify-content-center p-2 mx-1 typography color__1">
+                                                    <i class="icon icon-bin"></i>
                                                 </button>
                                             </div>
                                         </div>
@@ -405,12 +414,12 @@
                                             <div
                                                 class="col-auto ms-auto d-flex align-items-center justify-content-center">
                                                 <button
-                                                    class="action-icon-box bgcolor__1 radius__2 border-0 d-flex align-items-center justify-content-center p-2 mx-1">
-                                                    <img src="./images/bin.svg" alt="">
+                                                    class="action-icon-box bgcolor__1 radius__2 border-0 d-flex align-items-center justify-content-center p-2 mx-1 typography color__1">
+                                                    <i class="icon icon-edit-pen"></i>
                                                 </button>
                                                 <button
-                                                    class="action-icon-box bgcolor__1 radius__2 border-0 d-flex align-items-center justify-content-center p-2 mx-1">
-                                                    <img src="./images/bin.svg" alt="">
+                                                    class="action-icon-box bgcolor__1 radius__2 border-0 d-flex align-items-center justify-content-center p-2 mx-1 typography color__1">
+                                                    <i class="icon icon-bin"></i>
                                                 </button>
                                             </div>
                                         </div>
@@ -418,10 +427,8 @@
                                     <div class="col-12 mt-3">
 
                                         <button
-                                            class="bgcolor__0 border-0 typography color__2 typography__caption weight__bold">
-                                            <i class="icon icon me-2 ">
-                                                <img src="./images/add.svg" alt="">
-                                            </i>
+                                            class="bgcolor__0 border-0 typography color__2 typography__subtitle weight__bold">
+                                            <i class="icon icon-add-blue"></i>
                                             Add another editor
                                         </button>
 
@@ -431,18 +438,19 @@
                                     <div class="bgcolor__15 p-3 radius__2 p-1 d-flex align-items-center ">
                                         <div class="col-auto ">
                                             <div class="d-flex align-items-center">
-                                                <div class="icon icon typography typography__subtitle color__10 ">
-                                                    icon
-                                                </div>
+                                                <i class="icon icon-guide typography typography__subtitle ">
+
+                                                </i>
                                                 <div class="typography typography__body ms-5 weight__500 color__5">
                                                     <span>question 1</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-auto ms-auto">
-                                            <div class="icon icon typography typography__caption color__2 ">
-                                                icon
-                                            </div>
+                                            <i
+                                                class="icon icon-exclamation-point-in-circle typography typography__body color__2 ">
+
+                                            </i>
                                         </div>
                                     </div>
                                     <div class="col-10 typography typography__subtitle color__5 weight__500 my-4 ">
@@ -457,9 +465,10 @@
                                 <div class="py-3 ">
                                     <div class="col-12">
                                         <div class="form-input d-flex ">
-                                            <label class="checkbox checked">
+                                            <label class="checkbox checked ">
                                                 <input type="checkbox" name="" value="" />
-                                                <span><i class="icon icon-ckeck">icon</i></span>
+                                                <span class="d-flex align-items-center justify-content-center"><i
+                                                        class="icon icon-check"></i></span>
                                             </label>
 
                                             <div class="typography typography__caption weight__bold color__5 ps-4">
@@ -471,9 +480,9 @@
                                 </div>
                                 <div class="col-xl-5 col-md-7 ms-auto mt-5">
                                     <button
-                                        class="large-btn w-100 bgcolor__1 typography typography__body color__1 border-0 radius__2">
+                                        class="d-flex align-items-center justify-content-center large-btn w-100 bgcolor__1 typography typography__body color__1 border-0 radius__2">
                                         Continue
-                                        <i class="icon icon-arrow-right"></i>
+                                        <i class="icon icon-arrow-right-gray ms-3"></i>
                                     </button>
                                 </div>
                             </div>

@@ -179,6 +179,11 @@ html {
   overflow        : hidden;
   background-color: inherit;
 
+  &.mini {
+    width : 42px;
+    height: 42px;
+  }
+
   @media screen and (max-width:992px) {
     width : 42px !important;
     height: 42px !important;
