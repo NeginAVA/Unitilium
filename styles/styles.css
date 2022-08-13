@@ -1893,6 +1893,11 @@ recButton i, button.recButton i {
 .content .row.content-divider {
   height: 100%;
 }
+@media screen and (max-width: 992px) {
+  .content .activities-container {
+    overflow: hidden;
+  }
+}
 .content .activity-bar {
   height: 100%;
 }
@@ -1900,6 +1905,17 @@ recButton i, button.recButton i {
   .content .activity-bar.bg-lg-change {
     background-color: inherit !important;
   }
+}
+.content .activity-bar .activity-element.selected {
+  background-color: rgba(123, 97, 255, 0.8470588235) !important;
+  color: #ffffff;
+}
+.content .activity-bar .activity-element.selected .doc-num {
+  color: #282828 !important;
+}
+.content .activity-bar .activity-element.selected .activity-icon {
+  background-color: #AB9AFF !important;
+  color: #282828;
 }
 .content .activity-bar a.activity-bg:hover {
   background-color: #9CE1FF !important;

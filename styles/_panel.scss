@@ -5,13 +5,13 @@
 }
 
 .panel .menu-left {
-  height          : 100%;
-  width           : 200px;
+  height: 100%;
+  width: 200px;
   background-color: #282828;
-  padding         : 38px 18px;
-  position        : fixed;
-  left            : 0;
-  top             : 0;
+  padding: 38px 18px;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .panel .menu-left .nav {
@@ -19,11 +19,11 @@
 }
 
 .panel .menu-left .nav ul li {
-  margin       : 20px 0;
+  margin: 20px 0;
   border-radius: 4px;
-  padding      : 10px;
-  height       : 42px;
-  transition   : all ease-in-out 0.43s;
+  padding: 10px;
+  height: 42px;
+  transition: all ease-in-out 0.43s;
 
   &:hover {
     background-color: #5d3dff
@@ -39,20 +39,20 @@
 }
 
 .panel .menu-left .nav ul li a {
-  display       : block;
-  font-size     : 12px;
-  color         : #fff;
+  display: block;
+  font-size: 12px;
+  color: #fff;
   text-transform: capitalize;
-  font-weight   : 700;
+  font-weight: 700;
 
 
 
 }
 
 .panel .menu-left .nav ul li a img {
-  width       : 24px;
-  height      : 24px;
-  object-fit  : contain;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
   margin-right: 14px;
 }
 
@@ -67,17 +67,17 @@
 .profile-details {
   button {
     &.btn {
-      width : 45px;
+      width: 45px;
       height: 45px;
       @include flexCenter(row);
 
       @media screen and (max-width:992px) {
-        width : 35px;
+        width: 35px;
         height: 35px;
       }
 
       img {
-        width : 24px !important;
+        width: 24px !important;
         height: 24px;
       }
 
@@ -86,21 +86,21 @@
   }
 
   .avatar {
-    border-radius   : 50%;
-    width           : 56px;
-    height          : 56px;
-    overflow        : hidden;
-    border          : hidden;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    border: hidden;
     background-color: inherit;
 
     a {
       display: block;
 
       img {
-        width        : 100%;
-        height       : 100%;
+        width: 100%;
+        height: 100%;
         -o-object-fit: cover;
-        object-fit   : cover;
+        object-fit: cover;
       }
     }
   }
@@ -114,7 +114,12 @@
       height: 100%;
     }
   }
+.activities-container{
+  @media screen and (max-width:992px) {
+    overflow: hidden;
 
+  }
+}
   .activity-bar {
     height: 100%;
 
@@ -124,14 +129,27 @@
 
       }
     }
-
+    .activity-element {
+      &.selected {
+        background-color: #7b61ffd8 !important;
+        color: $white;
+        .doc-num{
+          color: #282828 !important;
+        }
+        .activity-icon {
+          background-color: #AB9AFF !important;
+          color: #282828;
+        }
+        
+      }
+    }
     a {
       &.activity-bg {
 
 
         &:hover {
           background-color: #9CE1FF !important;
-          color           : unset
+          color: unset
         }
       }
     }
@@ -146,30 +164,32 @@
         }
       }
 
+      
+
       .single-activity {
         p {
           margin-bottom: 12px;
 
           span {
             &.dot {
-              width           : 10px;
-              height          : 10px;
-              border-radius   : 50%;
-              margin-right    : 4px;
+              width: 10px;
+              height: 10px;
+              border-radius: 50%;
+              margin-right: 4px;
               background-color: $elephant;
-              color           : $elephant;
-              display         : inline-block;
+              color: $elephant;
+              display: inline-block;
             }
           }
         }
       }
 
       .activity-icon {
-        border-radius   : 15px 0px 0px 0px;
+        border-radius: 15px 0px 0px 0px;
         background-color: $white;
         @include flexCenter(row);
-        width       : 95px;
-        height      : 85px;
+        width: 95px;
+        height: 85px;
         border-right: 1px solid #e5e5e5;
 
       }
@@ -189,9 +209,9 @@
       }
 
       .text:before {
-        right       : unset;
-        left        : 100%;
-        border-left : 10px solid #fff;
+        right: unset;
+        left: 100%;
+        border-left: 10px solid #fff;
         border-right: 10px solid transparent;
       }
     }
@@ -199,34 +219,34 @@
     &__box {
       min-width: 30%;
       max-width: 50%;
-      position : relative;
-      display  : inline-block;
+      position: relative;
+      display: inline-block;
 
       .avatar {
         display: none;
-        width  : 32px;
-        height : 32px;
+        width: 32px;
+        height: 32px;
       }
 
       .text {
-        border-radius   : 8px;
-        padding         : 10px;
+        border-radius: 8px;
+        padding: 10px;
         background-color: #fff;
-        filter          : drop-shadow(0px 0px 20px rgba(132, 132, 132, 0.2));
-        position        : relative;
-        text-align      : start;
+        filter: drop-shadow(0px 0px 20px rgba(132, 132, 132, 0.2));
+        position: relative;
+        text-align: start;
 
         &:before {
-          content      : "";
-          position     : absolute;
-          top          : 0;
-          right        : 100%;
-          bottom       : 0;
-          display      : table;
-          margin       : auto;
-          border-top   : 10px solid transparent;
-          border-right : 10px solid #fff;
-          border-left  : 10px solid transparent;
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 100%;
+          bottom: 0;
+          display: table;
+          margin: auto;
+          border-top: 10px solid transparent;
+          border-right: 10px solid #fff;
+          border-left: 10px solid transparent;
           border-bottom: 10px solid transparent;
 
         }
