@@ -360,6 +360,9 @@ recButton i, button.recButton i {
 .typography.color__12 {
   color: #d7d7d7;
 }
+.typography.color__13 {
+  color: #7C7B7B;
+}
 .typography.weight__400 {
   font-weight: 400;
 }
@@ -740,14 +743,14 @@ recButton i, button.recButton i {
   color: #ff3030;
 }
 .form-input .input__sucsessful {
-  background: #e6ffe2;
-  border: 1px solid #e6ffe2;
+  background: #E1F6FF;
+  border: 1px solid #E1F6FF;
 }
 .form-input .input__sucsessful .input--icon {
-  background-color: #b2ffa6;
+  background-color: #EDEDED;
 }
-.form-input .input__sucsessful .input--icon i {
-  color: #3ac922;
+.form-input .input__sucsessful .input--icon i.success-icon {
+  color: #3AC922;
 }
 .form-input .input__sucsessful label span {
   color: #3ac922;

@@ -5,31 +5,31 @@
 
   .input {
     border-radius: 8px;
-    border: 1px solid $skyBlue;
-    transition: border 0.43s ease-in-out, background 0.43s ease-in-out;
-    display: flex;
+    border       : 1px solid $skyBlue;
+    transition   : border 0.43s ease-in-out, background 0.43s ease-in-out;
+    display      : flex;
 
     &--icon {
-      border-radius: 8px;
+      border-radius   : 8px;
       background-color: #ededed;
-      border: none;
-      padding: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      border          : none;
+      padding         : 16px;
+      display         : flex;
+      align-items     : center;
+      justify-content : center;
 
       &__left {
-        border-top-right-radius: 0;
+        border-top-right-radius   : 0;
         border-bottom-right-radius: 0;
       }
 
       &__right {
-        border-top-left-radius: 0;
+        border-top-left-radius   : 0;
         border-bottom-left-radius: 0;
       }
 
       i {
-        color: #7c7b7b;
+        color    : #7c7b7b;
         font-size: 14px;
       }
     }
@@ -49,24 +49,25 @@
     }
 
     input {
-      font-size: 14px;
-      color: #181818;
+      font-size       : 14px;
+      color           : #181818;
       background-color: transparent;
-      border: none;
-      outline: none;
-      padding: 16px;
-      line-height: 1;
-      width: 100%;
+      border          : none;
+      outline         : none;
+      padding         : 16px;
+      line-height     : 1;
+      width           : 100%;
     }
 
     label {
       padding: 6px 16px;
-      width: 100%;
+      width  : 100%;
+
       span {
-        font-size: 12px;
+        font-size  : 12px;
         font-weight: 700;
         line-height: 16px;
-        color: #5c5c5c;
+        color      : #5c5c5c;
       }
 
       input {
@@ -82,7 +83,7 @@
     &:focus-within,
     &__focus {
       background: #f8f8f8;
-      border: 1px solid #ff7f37;
+      border    : 1px solid #ff7f37;
 
       .input--icon {
         background-color: #ededed;
@@ -91,7 +92,7 @@
 
     &__disabled {
       background: #efefef;
-      border: 1px solid #8a8a8a;
+      border    : 1px solid #8a8a8a;
 
       input {
         color: #8a8a8a;
@@ -104,7 +105,7 @@
 
     &__error {
       background: #fff2f2;
-      border: 1px solid #ff3030;
+      border    : 1px solid #ff3030;
 
       input {
         color: #5c5c5c;
@@ -114,20 +115,22 @@
         background-color: #ffc0c0;
       }
 
-      & + .description {
+      &+.description {
         color: #ff3030;
       }
     }
 
     &__sucsessful {
-      background: #e6ffe2;
-      border: 1px solid #e6ffe2;
+      background: #E1F6FF;
+      border    : 1px solid #E1F6FF;
 
       .input--icon {
-        background-color: #b2ffa6;
+        background-color: #EDEDED;
 
         i {
-          color: #3ac922;
+          &.success-icon {
+            color: #3AC922;
+          }
         }
       }
 
@@ -142,28 +145,29 @@
   .input_textarea {
     label {
       padding: 4px;
+
       span {
         padding: 0 16px;
       }
     }
 
     textarea {
-      width: 100%;
+      width           : 100%;
       background-color: transparent;
-      border: none;
-      min-height: 100px;
-      max-height: 450px;
-      outline: none;
-      padding: 6px 16px;
+      border          : none;
+      min-height      : 100px;
+      max-height      : 450px;
+      outline         : none;
+      padding         : 6px 16px;
     }
   }
 
   .description {
-    color: #5c5c5c;
+    color      : #5c5c5c;
     font-weight: 400;
-    font-size: 12px;
+    font-size  : 12px;
     line-height: 16px;
-    padding: 4px;
+    padding    : 4px;
   }
 
   .upload-input {
@@ -171,20 +175,20 @@
 
     .box {
       border-radius: 8px;
-      overflow: hidden;
-      border: 2px solid #52c3ff;
-      width: 100%;
-      padding-top: 100%;
-      position: relative;
+      overflow     : hidden;
+      border       : 2px solid #52c3ff;
+      width        : 100%;
+      padding-top  : 100%;
+      position     : relative;
 
       .wrapper {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
+        position       : absolute;
+        top            : 0;
+        left           : 0;
+        width          : 100%;
+        height         : 100%;
+        display        : flex;
+        align-items    : center;
         justify-content: center;
       }
 
@@ -193,14 +197,14 @@
 
         span {
           font-weight: 400;
-          font-size: 14px;
+          font-size  : 14px;
           line-height: 18px;
-          color: #181818;
-          display: block;
+          color      : #181818;
+          display    : block;
 
           i {
-            color: #52c3ff;
-            font-size: 16px;
+            color        : #52c3ff;
+            font-size    : 16px;
             margin-bottom: 8px;
           }
         }
@@ -208,23 +212,23 @@
 
       input {
         position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        opacity: 0;
-        cursor: pointer;
+        width   : 100%;
+        height  : 100%;
+        top     : 0;
+        left    : 0;
+        opacity : 0;
+        cursor  : pointer;
       }
 
       .image {
-        width: 100%;
-        height: 100%;
+        width   : 100%;
+        height  : 100%;
         position: relative;
-        display: none;
+        display : none;
 
         img {
-          width: 100%;
-          height: 100%;
+          width     : 100%;
+          height    : 100%;
           object-fit: cover;
         }
 
@@ -243,6 +247,7 @@
     }
 
     .description {
+
       .loading,
       .fulfilled,
       .error {
@@ -263,7 +268,7 @@
         }
 
         .wrapper.loading {
-          display: block;
+          display   : block;
           background: linear-gradient(0deg, rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5));
         }
       }
@@ -289,8 +294,8 @@
 
         .wrapper.fulfilled {
           background: linear-gradient(0deg, rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5));
-          display: flex;
-          opacity: 0;
+          display   : flex;
+          opacity   : 0;
           transition: opacity 0.43s ease-in-out;
         }
 
@@ -325,7 +330,7 @@
         }
 
         .wrapper.loading {
-          display: block;
+          display   : block;
           background: linear-gradient(0deg, rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5));
         }
 
@@ -347,24 +352,24 @@
   }
 
   .dragdrop-input {
-    border: 2px dashed #d7d7d7;
-    padding: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border         : 2px dashed #d7d7d7;
+    padding        : 48px;
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
     justify-content: center;
-    position: relative;
-    border-radius: 8px;
-    min-height: 100%;
+    position       : relative;
+    border-radius  : 8px;
+    min-height     : 100%;
 
     input {
-      opacity: 0;
+      opacity : 0;
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      cursor: pointer;
+      top     : 0;
+      left    : 0;
+      width   : 100%;
+      height  : 100%;
+      cursor  : pointer;
     }
   }
 
@@ -373,182 +378,200 @@
 
     input {
       position: absolute;
-      opacity: 0;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      cursor: pointer;
+      opacity : 0;
+      width   : 100%;
+      height  : 100%;
+      top     : 0;
+      left    : 0;
+      cursor  : pointer;
     }
+
     span {
-      cursor: pointer;
-      width: 24px;
-      height: 24px;
-      border: 2px solid #d7d7d7;
+      cursor          : pointer;
+      width           : 24px;
+      height          : 24px;
+      border          : 2px solid #d7d7d7;
       background-color: transparent;
-      border-radius: 4px;
-      color: #fff;
-      display: block;
+      border-radius   : 4px;
+      color           : #fff;
+      display         : block;
+
       i {
         font-size: 10px;
-        display: none;
+        display  : none;
       }
     }
+
     &.checked {
       span {
         background-color: #52c3ff;
-        border-color: #2d5bff;
+        border-color    : #2d5bff;
+
         i {
           display: block;
         }
       }
     }
+
     &:hover,
     &.hover {
       span {
         border-color: #1b4af0;
       }
+
       &.checked {
         span {
           background-color: #1b4af0;
         }
       }
     }
+
     &:focus-within,
     &.focus {
       span {
         border-color: #ff7f37;
       }
+
       &.checked {
         span {
           background-color: #002ed0;
         }
       }
     }
+
     &:disabled,
     &.disabled {
       span {
-        color: #8a8a8a;
-        border-color: #8a8a8a;
+        color           : #8a8a8a;
+        border-color    : #8a8a8a;
         background-color: #efefef;
       }
     }
   }
+
   .radio {
     position: relative;
 
     input {
       position: absolute;
-      opacity: 0;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      cursor: pointer;
+      opacity : 0;
+      width   : 100%;
+      height  : 100%;
+      top     : 0;
+      left    : 0;
+      cursor  : pointer;
     }
+
     span {
-      cursor: pointer;
-      width: 24px;
-      height: 24px;
-      border: 2px solid #d7d7d7;
+      cursor          : pointer;
+      width           : 24px;
+      height          : 24px;
+      border          : 2px solid #d7d7d7;
       background-color: transparent;
-      box-shadow: 0px 0px 0px 2px transparent;
-      border-radius: 50%;
-      color: #fff;
-      display: block;
+      box-shadow      : 0px 0px 0px 2px transparent;
+      border-radius   : 50%;
+      color           : #fff;
+      display         : block;
     }
+
     &.checked {
       span {
         border-color: #52c3ff;
-        box-shadow: 0px 0px 0px 2px #2d5bff;
+        box-shadow  : 0px 0px 0px 2px #2d5bff;
         border-width: 8px;
       }
     }
+
     &:hover,
     &.hover {
       span {
         border-color: #1b4af0;
       }
     }
+
     &:focus-within,
     &.focus {
       span {
         border-color: #2d5bff;
-        box-shadow: 0px 0px 0px 2px #ff7f37;
+        box-shadow  : 0px 0px 0px 2px #ff7f37;
       }
     }
+
     &:disabled,
     &.disabled {
       span {
-        color: #8a8a8a;
-        border-color: #8a8a8a;
+        color           : #8a8a8a;
+        border-color    : #8a8a8a;
         background-color: #efefef;
-        box-shadow: 0px 0px 0px 2px transparent;
+        box-shadow      : 0px 0px 0px 2px transparent;
       }
     }
   }
+
   .switch-checbox {
     label {
-      display: flex;
+      display    : flex;
       align-items: center;
-      position: relative;
+      position   : relative;
     }
+
     input {
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
+      top     : 0;
+      left    : 0;
+      width   : 100%;
+      height  : 100%;
+      opacity : 0;
     }
-    input:checked ~ span {
+
+    input:checked~span {
       background: #14b45c;
     }
 
-    input:checked ~ span:after {
-      left: 24px;
+    input:checked~span:after {
+      left      : 24px;
       background: whitesmoke;
     }
 
-    input:checked ~ span:active::after {
-      left: 17px;
+    input:checked~span:active::after {
+      left      : 17px;
       background: whitesmoke;
     }
 
-    input:not(:checked) ~ span:active {
+    input:not(:checked)~span:active {
       background: #a3a3a3;
     }
 
-    input:not(:checked) ~ span:active::after {
+    input:not(:checked)~span:active::after {
       background: rgb(248, 248, 248);
     }
 
     .toggle_background {
-      display: flex;
-      align-items: center;
-      width: 58px;
-      height: 32px;
-      position: relative;
-      cursor: pointer;
-      background: #babacc;
+      display      : flex;
+      align-items  : center;
+      width        : 58px;
+      height       : 32px;
+      position     : relative;
+      cursor       : pointer;
+      background   : #babacc;
       border-radius: 2em;
-      border: 2px transparent solid;
-      transition: all 0.3s;
+      border       : 2px transparent solid;
+      transition   : all 0.3s;
     }
 
     /* ---- toggle switching cricle design code ---- */
     .toggle_background::after {
-      content: "";
-      display: flex;
-      position: absolute;
-      width: 30px;
-      height: 28px;
-      left: 0px;
-      top: 0px;
+      content      : "";
+      display      : flex;
+      position     : absolute;
+      width        : 30px;
+      height       : 28px;
+      left         : 0px;
+      top          : 0px;
       border-radius: 50px;
-      background: #f0f5f9;
-      transition: all 0.3s;
-      box-shadow: 2px 2px 5px rgba(110, 110, 110, 0.253);
+      background   : #f0f5f9;
+      transition   : all 0.3s;
+      box-shadow   : 2px 2px 5px rgba(110, 110, 110, 0.253);
     }
 
     span:active:after {
