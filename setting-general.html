@@ -17,6 +17,8 @@
         <div class="nav">
 
             <ul>
+                <button id="close-menu-left" type="button" class="btn-close btn-close-white d-lg-none d-block"
+                    aria-label="Close"></button>
                 <li>
                     <a href="#">
                         <i class="icon icon-home-black"></i>
@@ -78,19 +80,20 @@
         <div class="container-fluid py-5 px-md-4">
             <div class="row align-items-center">
                 <div class="col-auto">
-                    <button id="menu-left" class="btn bgcolor__1 p-2 typography color__1">
-                        <img src="./images/ham-menu.svg" alt="menu">
+                    <button id="menu-left" class="btn bgcolor__1 p-2 typography typography__body color__1"
+                        style="width: 35px;height: 35px;">
+                        <i class="icon icon-menu-white"></i>
                     </button>
                 </div>
                 <div class="profile-details col-auto ms-auto d-flex align-items-center">
                     <div class="me-3">
-                        <button class="btn bgcolor__1 p-3 typography color__1">
-                            <img src="./images/Union (2).svg" alt="notification" />
+                        <button class="btn bgcolor__1 p-3 typography typography__body color__1">
+                            <i class="icon icon-notif"></i>
                         </button>
                     </div>
                     <div class="me-3">
-                        <button class="btn bgcolor__1 p-3 typography color__1">
-                            <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                        <button class="btn bgcolor__1 p-3 typography typography__body color__1">
+                            <i class="icon icon-comments"></i>
                         </button>
                     </div>
                     <div class="avatar">
@@ -117,13 +120,13 @@
                     </div>
                     <div class="profile-details col-auto ms-auto d-flex align-items-center">
                         <div class="me-3">
-                            <button class="btn bgcolor__1 p-3 typography color__1">
-                                <img src="./images/Union (2).svg" alt="notification" />
+                            <button class="btn bgcolor__1 p-3 typography typography__body color__1">
+                                <i class="icon icon-notif"></i>
                             </button>
                         </div>
                         <div class="me-3">
-                            <button class="btn bgcolor__1 p-3 typography color__1">
-                                <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                            <button class="btn bgcolor__1 p-3 typography typography__body color__1">
+                                <i class="icon icon-comments"></i>
                             </button>
                         </div>
                         <div class="avatar">
@@ -149,13 +152,15 @@
                 </div>
                 <div class="col-12 y-3">
                     <div class="bgcolor__15 p-3 radius__2 p-1 d-flex align-items-center ">
-                        <div class="col-auto ">
-                            <div class="d-flex align-items-center">
-                                <div class="icon icon typography typography__subtitle color__5 ">
-                                    icon
-                                </div>
-                                <div class="typography typography__body ms-5 weight__500 color__5">
-                                    <span>Notifications in chats, Payments and logins</span>
+                        <div class="col-md-auto col-10">
+                            <div class="d-flex align-items-baseline ">
+                                <i class="icon icon-guide typography typography__subtitle color__5 ">
+
+                                </i>
+                                <div class="typography typography__body ms-lg-5 ms-2 weight__500 color__5"
+                                    style="word-break: break-word;">
+                                    <span style="word-break: break-word;">Notifications in chats, Payments and
+                                        logins</span>
                                 </div>
                             </div>
                         </div>

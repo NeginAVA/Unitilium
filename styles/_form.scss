@@ -509,6 +509,8 @@
   }
 
   .switch-checbox {
+    position: relative;
+
     label {
       display    : flex;
       align-items: center;
@@ -525,7 +527,7 @@
     }
 
     input:checked~span {
-      background: #14b45c;
+      background: #00b2ff;
     }
 
     input:checked~span:after {

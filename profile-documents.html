@@ -17,6 +17,8 @@
     <div class="nav">
 
       <ul>
+        <button id="close-menu-left" type="button" class="btn-close btn-close-white d-lg-none d-block"
+          aria-label="Close"></button>
         <li>
           <a href="#">
             <i class="icon icon-home-black"></i>
@@ -78,19 +80,20 @@
     <div class="container-fluid py-5 px-md-4">
       <div class="row align-items-center">
         <div class="col-auto">
-          <button id="menu-left" class="btn bgcolor__1 p-2 typography color__1">
-            <img src="./images/ham-menu.svg" alt="menu">
+          <button id="menu-left" class="btn bgcolor__1 p-2 typography typography__caption color__1"
+            style="width: 35px;height: 35px;">
+            <i class="icon icon-menu-white"></i>
           </button>
         </div>
         <div class="profile-details col-auto ms-auto d-flex align-items-center">
           <div class="me-3">
-            <button class="btn bgcolor__1 p-3 typography color__1">
-              <img src="./images/Union (2).svg" alt="notification" />
+            <button class="btn bgcolor__1 p-3 typography typography__caption color__1">
+              <i class="icon icon-notif"></i>
             </button>
           </div>
           <div class="me-3">
-            <button class="btn bgcolor__1 p-3 typography color__1">
-              <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+            <button class="btn bgcolor__1 p-3 typography typography__caption color__1">
+              <i class="icon icon-comments"></i>
             </button>
           </div>
           <div class="avatar">
@@ -103,73 +106,132 @@
     </div>
   </div>
   <div class="content">
-    <div class="container-fluid h-100 px-4">
-      <div class="row h-100">
-        <div class="col-lg-4  activity-bar bgcolor__11  px-0 py-5 bg-lg-change ">
+    <div class="container-fluid h-100 ">
+      <div class="row activity-row h-100">
+        <div class="col-lg-4  activity-bar bgcolor__11  px-0 py-lg-5 bg-lg-change ">
+          <div class="col-12 ms-2 mb-4 d-lg-none d-block typography typography__body">
+            <i class="icon icon-user-purple me-1"></i>Profile
+          </div>
           <div class="d-flex justify-content-between px-5">
             <div class="col-auto">
               <span class="typography__h6">Activies</span>
             </div>
             <div class="col-auto ms-auto d-flex align-items-center">
               <div class="me-2 d-lg-block d-none">
-                <img src="./images/filter.svg" alt="" />
+                <i class="icon icon-filter-black typography typography__h6 me-2"></i>
+                <i class="icon icon-search-black typography typography__h6"></i>
               </div>
-              <div class="me-2">
-                <img src="./images/search.svg" alt="" />
-              </div>
+
             </div>
           </div>
-          <div class="my-3">
-            <hr class="d-lg-block d-none" />
+          <div class="mt-3">
+            <hr class="d-lg-block d-none m-0" />
           </div>
 
-          <div class="bgcolor__11  mx-lg-0 mx-md-5 mx-3 radius__2 overflow-hidden">
+          <div class="activities-container bgcolor__11  mx-lg-0 mx-md-5 mx-3 radius__2 ">
 
 
-            <div class=" pt-3 position-relative activity-element  ">
+            <div class=" pt-3 position-relative activity-element "
+              style="background:inherit;transition: all ease-in-out 0.3s;"
+              onmouseover="this.style.background='#9CE1FF'; this.style.cursor='pointer'"
+              onmouseout="this.style.background='inherit';">
               <div class="col-12 activity-item ps-5 ">
                 <div class="row me-0 align-items-end">
                   <div class="col single-activity">
                     <p class="typography__body d-lg-block d-none weight__maxbold">You did this:</p>
                     <p class="typography__caption typography weight__maxbold d-flex align-items-center">
-                      <span class="dot d-lg-block d-none"></span>
+                      <span class="dot d-lg-flex align-items-center justify-content-center d-none"></span>
                       <span>Comment on <br class="d-lg-none d-block" /> marketing.doc</span>
                     </p>
                     <p class="typography__overline">23/12/1998</p>
                   </div>
-                  <div class="col-auto activity-icon d-lg-block d-none">
+                  <div class="col-auto activity-icon d-lg-flex align-items-center justify-content-center d-none">
                     <div class="p-4">
-                      <div class="icon icon typography typography__body color__10">
-                        icon
-                      </div>
+                      <i class="icon icon-comments typography typography__body color__10">
+
+                      </i>
                     </div>
                   </div>
                 </div>
               </div>
               <a href="#" class="position-absolute h-100 w-100 top-0 left-0 "></a>
             </div>
-            <div class=" pt-3 position-relative activity-element ">
-              <div class="col-12 activity-item last ps-5 ">
+            <div class=" pt-3 position-relative activity-element "
+              style="background:inherit;transition: all ease-in-out 0.3s;"
+              onmouseover="this.style.background='#9CE1FF'; this.style.cursor='pointer'"
+              onmouseout="this.style.background='inherit';">
+              <div class="col-12 activity-item ps-5 ">
                 <div class="row me-0 align-items-end">
                   <div class="col single-activity">
                     <p class="typography__body d-lg-block d-none weight__maxbold">You did this:</p>
                     <p class="typography__caption typography weight__maxbold d-flex align-items-center">
-                      <span class="dot d-lg-block d-none"></span>
+                      <span class="dot d-lg-flex align-items-center justify-content-center d-none"></span>
                       <span>Comment on <br class="d-lg-none d-block" /> marketing.doc</span>
                     </p>
                     <p class="typography__overline">23/12/1998</p>
                   </div>
-                  <div class="col-auto activity-icon d-lg-block d-none">
+                  <div class="col-auto activity-icon d-lg-flex align-items-center justify-content-center d-none">
                     <div class="p-4">
-                      <div class="icon icon typography typography__body color__10">
-                        icon
-                      </div>
+                      <i class="icon icon-edit-pen typography typography__body color__10">
+
+                      </i>
                     </div>
                   </div>
                 </div>
               </div>
               <a href="#" class="position-absolute h-100 w-100 top-0 left-0 "></a>
             </div>
+            <div class=" pt-3 position-relative activity-element "
+              style="background:inherit;transition: all ease-in-out 0.3s;"
+              onmouseover="this.style.background='#9CE1FF'; this.style.cursor='pointer'"
+              onmouseout="this.style.background='inherit';">
+              <div class="col-12 activity-item ps-5 ">
+                <div class="row me-0 align-items-end">
+                  <div class="col single-activity">
+                    <p class="typography__body d-lg-block d-none weight__maxbold">You did this:</p>
+                    <p class="typography__caption typography weight__maxbold d-flex align-items-center">
+                      <span class="dot d-lg-flex align-items-center justify-content-center d-none"></span>
+                      <span>Comment on <br class="d-lg-none d-block" /> marketing.doc</span>
+                    </p>
+                    <p class="typography__overline">23/12/1998</p>
+                  </div>
+                  <div class="col-auto activity-icon d-lg-flex align-items-center justify-content-center d-none">
+                    <div class="p-4">
+                      <i class="icon icon-cart typography typography__body color__10">
+
+                      </i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="position-absolute h-100 w-100 top-0 left-0 "></a>
+            </div>
+            <div class=" pt-3 position-relative activity-element "
+              style="background:inherit;transition: all ease-in-out 0.3s;"
+              onmouseover="this.style.background='#9CE1FF'; this.style.cursor='pointer'"
+              onmouseout="this.style.background='inherit';">
+              <div class="col-12 activity-item ps-5 ">
+                <div class="row me-0 align-items-end">
+                  <div class="col single-activity">
+                    <p class="typography__body d-lg-block d-none weight__maxbold">You did this:</p>
+                    <p class="typography__caption typography weight__maxbold d-flex align-items-center">
+                      <span class="dot d-lg-flex align-items-center justify-content-center d-none"></span>
+                      <span>Comment on <br class="d-lg-none d-block" /> marketing.doc</span>
+                    </p>
+                    <p class="typography__overline">23/12/1998</p>
+                  </div>
+                  <div class="col-auto activity-icon d-lg-flex align-items-center justify-content-center d-none">
+                    <div class="p-4">
+                      <i class="icon icon-send-gray-arrow typography typography__body color__10">
+
+                      </i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="position-absolute h-100 w-100 top-0 left-0 "></a>
+            </div>
+
 
 
           </div>
@@ -190,13 +252,13 @@
                 </div>
                 <div class="profile-details col-auto ms-auto d-flex align-items-center">
                   <div class="me-3">
-                    <button class="btn bgcolor__1 p-3 typography color__1">
-                      <img src="./images/Union (2).svg" alt="notification" />
+                    <button class="btn bgcolor__1 p-3 typography typography__body color__1">
+                      <i class="icon icon-notif"></i>
                     </button>
                   </div>
                   <div class="me-3">
-                    <button class="btn bgcolor__1 p-3 typography color__1">
-                      <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                    <button class="btn bgcolor__1 p-3 typography typography__body color__1">
+                      <i class="icon icon-comments"></i>
                     </button>
                   </div>
                   <div class="avatar">
@@ -235,7 +297,7 @@
                               </div>
                               <div class="wrapper fulfilled">
                                 <button class="p-3 bgcolor__9 radius__2 border-0">
-                                  <i class="icon icon-delete typography color__1 typography__h6">icon</i>
+                                  <i class="icon icon-bin typography color__1 typography__body"></i>
                                 </button>
                               </div>
                             </div>
@@ -279,7 +341,7 @@
                     <div class="form-input h-100">
                       <div class="dragdrop-input" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
                         <span>
-                          <i class="icon icon typography typography__h6 color__2">icon</i>
+                          <i class="icon icon-upload typography typography__h6 color__2"></i>
                         </span>
                         <span class="mt-2 typography typography__subtitle">Drop the picture
                           here</span>
@@ -287,7 +349,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-4 mb-5 d-flex flex-column">
+                  <div class="col-md-4 mb-md-5 mb-0 d-flex flex-column">
                     <div class="mb-4">
                       <div class="col">
                         <div class="form-input">
@@ -298,7 +360,7 @@
                             </label>
 
                             <button class="input--icon input--icon__right">
-                              <i class="icon icon-visibility">icon</i>
+                              <i class="icon icon-edit-pen"></i>
                             </button>
                           </div>
                         </div>
@@ -314,7 +376,7 @@
                             </label>
 
                             <button class="input--icon input--icon__right">
-                              <i class="icon icon-visibility">icon</i>
+                              <i class="icon icon-edit-pen"></i>
                             </button>
                           </div>
                         </div>
@@ -323,28 +385,42 @@
                     <div class="mb-4">
                       <div class="col">
                         <div class="form-input">
-                          <div class="input">
+                          <div class="input input input__sucsessful">
                             <label>
                               <span>label</span>
                               <input placeholder="text" type="text" />
                             </label>
 
-                            <button class="input--icon input--icon__right">
-                              <i class="icon icon-visibility">icon</i>
-                            </button>
+
                           </div>
                         </div>
                       </div>
                     </div>
 
                   </div>
+                  <div class="col-md-6  mt-0">
+                    <div class="mb-4">
+                      <div class="col">
+                        <div class="form-input">
+                          <div class="input input input__sucsessful">
+                            <label>
+                              <span>label</span>
+                              <input placeholder="text" type="text" />
+                            </label>
+
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div class="col-12 mt-md-5 mt-0">
                     <div class="row">
-                      <div class="col-xl-3 col-md-7 ms-auto">
+                      <div class="col-xl-5 col-md-7 ms-auto">
                         <button
                           class="large-btn w-100 bgcolor__1 typography typography__body color__1 border-0 radius__2">
                           Save
-                          <i class="icon icon-arrow-right"></i>
+                          <i class="icon icon-arrow-white ms-3"></i>
                         </button>
                       </div>
                     </div>

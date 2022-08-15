@@ -16,6 +16,8 @@
         <div class="nav">
 
             <ul>
+                <button id="close-menu-left" type="button" class="btn-close btn-close-white d-lg-none d-block"
+                    aria-label="Close"></button>
                 <li>
                     <a href="#">
                         <i class="icon icon-home-black"></i>
@@ -77,19 +79,20 @@
         <div class="container-fluid py-5 px-md-4">
             <div class="row align-items-center">
                 <div class="col-auto">
-                    <button id="menu-left" class="btn bgcolor__1 p-2 typography color__1">
-                        <img src="./images/ham-menu.svg" alt="menu">
+                    <button id="menu-left" class="btn bgcolor__1 p-2 typography typography__caption color__1"
+                        style="width: 35px;height: 35px;">
+                        <i class="icon icon-menu-white"></i>
                     </button>
                 </div>
                 <div class="profile-details col-auto ms-auto d-flex align-items-center">
                     <div class="me-3">
-                        <button class="btn bgcolor__1 p-3 typography color__1">
-                            <img src="./images/Union (2).svg" alt="notification" />
+                        <button class="btn bgcolor__1 p-3 typography typography__caption color__1">
+                            <i class="icon icon-notif"></i>
                         </button>
                     </div>
                     <div class="me-3">
-                        <button class="btn bgcolor__1 p-3 typography color__1">
-                            <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                        <button class="btn bgcolor__1 p-3 typography typography__caption color__1">
+                            <i class="icon icon-comments"></i>
                         </button>
                     </div>
                     <div class="avatar">
@@ -104,18 +107,17 @@
     <div class="content">
         <div class="container-fluid h-100">
             <div class="row h-100">
-                <div class="col-lg-4  activity-bar bgcolor__11  px-0 py-5 bg-lg-change ">
+                <div class="col-lg-4  activity-bar bgcolor__11  px-0 py-lg-5 bg-lg-change ">
                     <div class="d-flex justify-content-between px-5">
                         <div class="col-auto">
                             <span class="typography__h6">Guides</span>
                         </div>
                         <div class="col-auto ms-auto d-flex align-items-center">
                             <div class="me-2 d-lg-block d-none">
-                                <img src="./images/filter.svg" alt="" />
+                                <i class="icon icon-filter-black typography typography__h6 me-2"></i>
+                                <i class="icon icon-search-black typography typography__h6"></i>
                             </div>
-                            <div class="me-2">
-                                <img src="./images/search.svg" alt="" />
-                            </div>
+
                         </div>
                     </div>
                     <div class="my-3">
@@ -132,14 +134,15 @@
 
                                             <span>Guides for <br class="d-lg-none d-block" /> Marketing plan</span>
                                         </p>
-                                        <p class="typography__overline">20 tasks</p>
+                                        <p class="typography__subtitle typography weight__bold ">20 tasks</p>
                                     </div>
-                                    <div class="col-auto activity-icon d-lg-block d-none">
-                                        <div class="p-4">
-                                            <div class="icon icon typography typography__body color__10">
-                                                icon
-                                            </div>
-                                        </div>
+                                    <div
+                                        class="col-auto activity-icon d-lg-flex align-items-center justify-content-center d-none">
+
+                                        <i class="icon icon-arrow-right-gray typography typography__subtitle color__13">
+
+                                        </i>
+
                                     </div>
                                 </div>
                             </div>
@@ -155,14 +158,15 @@
 
                                             <span>Guides for <br class="d-lg-none d-block" /> Marketing plan</span>
                                         </p>
-                                        <p class="typography__overline">20 tasks</p>
+                                        <p class="typography__subtitle typography weight__bold">20 tasks</p>
                                     </div>
-                                    <div class="col-auto activity-icon d-lg-block d-none">
-                                        <div class="p-4">
-                                            <div class="icon icon typography typography__body color__10">
-                                                icon
-                                            </div>
-                                        </div>
+                                    <div
+                                        class="col-auto activity-icon d-lg-flex align-items-center justify-content-center d-none">
+
+                                        <i class="icon icon-arrow-right-gray typography typography__subtitle color__13">
+
+                                        </i>
+
                                     </div>
                                 </div>
                             </div>
@@ -190,13 +194,13 @@
                                 </div>
                                 <div class="profile-details col-auto ms-auto d-flex align-items-center">
                                     <div class="me-3">
-                                        <button class="btn bgcolor__1 p-3 typography color__1">
-                                            <img src="./images/Union (2).svg" alt="notification" />
+                                        <button class="btn bgcolor__1 p-3 typography typography__body color__1">
+                                            <i class="icon icon-notif"></i>
                                         </button>
                                     </div>
                                     <div class="me-3">
-                                        <button class="btn bgcolor__1 p-3 typography color__1">
-                                            <img src="./images/Ellipse 92 (Stroke).svg" alt="message" />
+                                        <button class="btn bgcolor__1 p-3 typography typography__body color__1">
+                                            <i class="icon icon-comments"></i>
                                         </button>
                                     </div>
                                     <div class="avatar">
@@ -217,16 +221,20 @@
 
                                     <div
                                         class="col-md-2 col-4 ms-auto d-flex align-items-center justify-content-center">
-                                        <button class="btn bgcolor__1 p-2  typography color__1 mx-1">
-                                            ico
+                                        <button
+                                            class="d-flex align-items-center justify-content-center btn bgcolor__1 p-2  typography color__1 mx-1"
+                                            style="width: 30px;height: 30px;">
+                                            <i class="icon icon-check"></i>
                                         </button>
-                                        <button class="btn  p-2 typography color__3 mx-1">
-                                            ico
+                                        <button
+                                            class="btn d-flex align-items-center justify-content-center  p-2 typography typography__body color__13 mx-1 accor-button"
+                                            attr-id="0" onclick="toggleAccor(this)">
+                                            <i class="icon icon-arrow-top-gray"></i>
                                         </button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 my-3 bgcolor__3 py-3 px-3">
+                            <div class="col-12 my-3 bgcolor__3 py-3 px-3 accor-content" attr-id="0">
                                 <p class="mx-lg-4 my-lg-5 m-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                                     Quisquam
                                     ullam
@@ -254,7 +262,16 @@
         </div>
 
 
+
+
         <script>
+
+            function toggleAccor(event) {
+                const id = event.getAttribute("attr-id");
+                const content = document.querySelector(`.accor-content[attr-id="${id}"]`)
+                content.classList.toggle("d-none")
+            }
+
             document.getElementById("menu-left").addEventListener("click", function () {
                 document.body.setAttribute("attr-open", "menu")
             })
